@@ -410,15 +410,15 @@ body {
     color: royalblue; }
 
 .tag-navigation {
+  height: 7rem;
   display: flex;
   justify-content: center;
   align-content: space-between;
-  flex-wrap: wrap;
-  margin-bottom: 2rem; }
-  @media only screen and (max-width: 800px) {
+  flex-wrap: wrap; }
+  @media only screen and (max-width: 940px) {
     .tag-navigation {
-      height: 7rem; } }
-  @media only screen and (max-width: 390px) {
+      margin-bottom: 2rem; } }
+  @media only screen and (max-width: 484px) {
     .tag-navigation {
       height: 11rem; } }
   @media only screen and (max-width: 341px) {
@@ -437,7 +437,7 @@ body {
     background-color: whitesmoke;
     padding: 1rem;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: rgba(15, 115, 142, 0.8);
     transition: all 0.2s; }
     @media only screen and (max-width: 341px) {
