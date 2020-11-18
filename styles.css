@@ -246,7 +246,9 @@ body {
   perspective: 150rem;
   -moz-perspective: 150rem;
   position: relative;
-  height: 52rem; }
+  height: 52rem;
+  font-size: 2rem;
+  border: 1px solid blue; }
   .card__side {
     height: 52rem;
     transition: all .8s ease;
@@ -256,7 +258,10 @@ body {
     width: 100%;
     backface-visibility: hidden;
     border-radius: 3px;
-    overflow: hidden; }
+    overflow: hidden;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
+    .card__side--front {
+      background-color: white; }
     .card__side--back {
       transform: rotateY(-180deg); }
   .card:hover .card__side--front {
@@ -449,3 +454,38 @@ body {
     .tag-navigation a:active {
       box-shadow: none;
       transform: translateY(0); }
+
+.main-portfolio {
+  background-color: whitesmoke;
+  transform: skewY(-4deg);
+  margin-top: -70px;
+  margin-bottom: -70px; }
+
+.portfolio-card-container {
+  display: flex;
+  justify-content: space-evenly;
+  transform: skewY(4deg);
+  padding: 10rem 0; }
+  .portfolio-card-container .round-button {
+    text-align: center;
+    padding: 3rem;
+    line-height: 4rem;
+    letter-spacing: 2px;
+    font-weight: 700; }
+    .portfolio-card-container .round-button--1 {
+      margin-top: 5rem;
+      background: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../../img/blog-pic.jpg);
+      background-size: cover;
+      background-position: center;
+      color: #343837; }
+    .portfolio-card-container .round-button--2 {
+      background: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../../img/massage-pic.jpg);
+      background-size: cover;
+      background-position: center;
+      color: #0f9b8e; }
+    .portfolio-card-container .round-button--3 {
+      margin-top: -5rem;
+      background: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../../img/friends-pic.jpg);
+      background-size: cover;
+      background-position: center;
+      color: #03719c; }
