@@ -6,7 +6,7 @@
 - [X] Fill out all descriptions.
 - [ ] Go description by description highlighting all the key words
       (frameworks, skills and libraries).
-- [ ] Create navigation buttons for small header.
+- [X] Create navigation buttons for small header.
 
 ## Later
 
