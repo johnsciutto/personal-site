@@ -1,5 +1,13 @@
 # To-Do List for Personal Site
 
+## Portfolio
+
+- [ ] Do the media queries for the "portfolio" site.
+- [ ] Test idea: What if I set a negative z-index for the header and footer,
+    and then just skewed the main section of the site and counter-skew the
+    children. That might work to make the edges more aligned without having to
+    play so much with the top and bottom clip-path.
+
 ## Blog
 
 - [ ] Check to see if I have a Netlify blog working.
