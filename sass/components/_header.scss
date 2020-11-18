@@ -1,0 +1,87 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+            to right,
+            rgba(15, 115, 142, 0.8),
+            rgba(15, 115, 142, 0.8)
+        ),
+        url('./img/profile-pic.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 75vh;
+    clip-path: $clip-image;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+
+    @include media(550px) {
+      height: 60vh;
+    }
+
+    @include media(450px) {
+      background: rgba(15, 115, 142, 0.8);
+      height: 9rem;
+      clip-path: $clip-reset;
+    }
+
+  &__title-container {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      color: #eee;
+
+      @include media(1100px) {
+        text-align: center;
+        height: 50%;
+        flex-direction: column;
+      }
+
+      @include media(450px) {
+        flex-direction: column;
+        height: 100%;
+        justify-content: center;
+      }
+  }
+
+  &__title {
+      font-family: 'Satisfy', cursive;
+      transform: skewY(-7deg);
+      font-weight: 200;
+      font-size: 10rem;
+      width: minmax(100vw, 50rem);
+      letter-spacing: 0.2rem;
+      display: block;
+      animation: fadeIn 0.5s linear backwards;
+
+      @include media(1100px) {
+        margin: 0 auto;
+      }
+
+      @include media(550px) {
+        font-size: 8rem;
+      }
+
+      @include media(450px) {
+        transform: skewY(0deg);
+        font-size: 5rem;
+        margin: 25px;
+      }
+  }
+
+  &__subtitle {
+      font-family: Arial, Helvetica, sans-serif;
+      display: block;
+      text-transform: uppercase;
+      font-size: 2rem;
+      letter-spacing: 1rem;
+      animation: moveUp 1s ease-out 0.5s backwards;
+
+      @include media(450px) {
+        font-size: 1.5rem;
+        // margin-top: 25px;
+      }
+  }
+    
+}

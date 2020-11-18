@@ -1,0 +1,6 @@
+// Media Manager
+@mixin media($max) {
+  @media only screen and (max-width: $max) {
+    @content
+  }
+}

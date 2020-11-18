@@ -1,0 +1,54 @@
+.title {
+  color: whitesmoke;
+  background-color: rgba(15, 115, 142, 0.8);
+  font-size: 5rem;
+  padding: 2rem;
+  margin-bottom: 5rem;
+  line-height: initial;
+  text-align: center;
+}
+
+.subtitle {
+  color: rgba(15, 115, 142, 0.8);
+  font-size: 3rem;
+  padding: 2rem;
+  margin-bottom: 3rem;
+  line-height: initial;
+  text-align: center;
+}
+.course {
+  &__container {
+    font-size: 1.6rem;
+    margin: 0 auto 2rem;
+    padding-bottom: 2rem;
+    max-width: 800px;
+    border-bottom: 1px solid rgb(196, 196, 196);
+  }
+
+  &__name {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  &__author {
+    font-size: 1.6rem;
+    margin: 1.5rem 0 .5rem;
+    text-transform: uppercase;
+  }
+
+  &__description {
+    line-height: 2.5rem;
+  }
+
+  &__certificate {
+
+    &:link,
+    &:active,
+    &:visited {
+      display: inline-block;
+      margin-top: 1rem;
+      text-decoration: none;
+      color: royalblue;
+    }
+  }
+}
