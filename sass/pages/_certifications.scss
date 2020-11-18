@@ -15,10 +15,10 @@
   transition: all 0.2s;
   border-radius: 5px;
 
-  &:hover {
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-    transform: translateY(-3px);
-  }
+  // &:hover {
+  //   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  //   transform: translateY(-3px);
+  // }
 
   &__name {
     font-size: 2.5rem;
