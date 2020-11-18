@@ -162,6 +162,21 @@ body {
     @media only screen and (max-width: 450px) {
       .footer-container {
         height: 100%; } }
+  .footer__nav {
+    margin-bottom: 2rem; }
+    .footer__nav a:link, .footer__nav a:active, .footer__nav a:visited {
+      margin-left: -0.5rem;
+      padding: 0.5rem 2rem;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: rgba(245, 245, 245, 0.8);
+      letter-spacing: 0.1rem;
+      transition: all .2s; }
+      .footer__nav a:link:not(:last-child), .footer__nav a:active:not(:last-child), .footer__nav a:visited:not(:last-child) {
+        border-right: 1px solid rgba(245, 245, 245, 0.8); }
+    .footer__nav a:hover {
+      background-color: rgba(245, 245, 245, 0.8);
+      color: #555; }
   .footer__contact-info {
     margin-bottom: 4rem; }
     @media only screen and (max-width: 550px) {

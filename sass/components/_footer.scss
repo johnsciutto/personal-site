@@ -52,6 +52,34 @@
       }
   }
 
+  &__nav {
+
+    margin-bottom: 2rem;
+    
+    a {
+      &:link,
+      &:active,
+      &:visited {
+        margin-left: -0.5rem;
+        padding: 0.5rem 2rem;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: rgba(245, 245, 245, 0.80);
+        letter-spacing: 0.1rem;
+        transition: all .2s;
+
+        &:not(:last-child) {
+          border-right: 1px solid rgba(245, 245, 245, 0.80);
+        }
+      }
+
+      &:hover {
+        background-color: rgba(245, 245, 245, 0.8);
+        color: #555;
+      }
+    }
+  }
+
   &__contact-info {
       margin-bottom: 4rem;
 

@@ -17,9 +17,12 @@
 - [X] Copy and paste the header and the footer form the index
 - [X] Create 3 mock cards
 - [X] Place the 3 mock cards horizontally on the grid
-- [X] Try skewing the main section and then counterskewing the children to see how it looks
-- [ ] Link the portfolio page in the index
+- [X] Try skewing the main section and then counterskewing the children to
+      see how it looks
+- [X] Link the portfolio page in the index
 - [ ] Add navigation links to home and certifications in the footer
+- [ ] Add the footer links to the footer in the portfolio page.
+- [ ] Edit the styles of the footer links.
 
 ## Later
 
