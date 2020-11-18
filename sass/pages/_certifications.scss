@@ -1,10 +1,10 @@
 .subtitle {
-  color: rgba(15, 115, 142, 0.8);
-  font-size: 3rem;
+  margin-bottom: 2rem;
   padding: 2rem;
-  margin-bottom: 3rem;
-  line-height: initial;
   text-align: center;
+  line-height: 3rem;
+  font-size: 3rem;
+  color: rgba(15, 115, 142, 0.8);
 }
 .course {
   font-size: 1.6rem;
@@ -23,10 +23,12 @@
   &__name {
     font-size: 2.5rem;
     margin-bottom: 2rem;
+    line-height: 2.5rem;
   }
 
   &__author {
     font-size: 2rem;
+    line-height: 2rem;
     margin-bottom: 2rem;
     text-transform: uppercase;
   }
@@ -52,9 +54,31 @@
 .tag-navigation {
   display: flex;
   justify-content: center;
+  align-content: space-between;
+  flex-wrap: wrap;
   margin-bottom: 2rem;
 
+  @include media(800px) {
+    height: 7rem;
+  }
+
+  @include media(390px) {
+    height: 11rem;
+  }
+
+  @include media(341px) {
+    height: 15rem;
+  }
+
+  @include media(330px) {
+    height: 19rem;
+  }
+
+
   a {
+    display: flex;
+    align-items: center;
+    text-align: center;
     border: none;
     border-radius: 100px;
     margin: 0 0.5rem;
@@ -64,6 +88,10 @@
     font-size: 1.2rem;
     color: rgba(15, 115, 142, 0.8);
     transition: all 0.2s;
+
+    @include media(341px) {
+      font-size: 1.5rem;
+    }
 
     &:hover {
       box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);

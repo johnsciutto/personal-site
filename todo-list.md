@@ -4,7 +4,7 @@
 
 - [X] Edit buttons in ul to look like little pills that are horizontal.
 - [X] Fill out all descriptions.
-- [ ] Go description by description highlighting all the key words
+- [X] Go description by description highlighting all the key words
       (frameworks, skills and libraries).
 - [X] Create navigation buttons for small header.
 

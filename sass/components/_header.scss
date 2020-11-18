@@ -86,6 +86,13 @@
 
   &--small {
     margin-bottom: 5rem;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    overflow: hidden;
+
+    @include media(800px) {
+      margin-bottom: 3rem;
+    }
 
     .title {
       color: whitesmoke;
@@ -94,6 +101,10 @@
       padding: 2rem;
       line-height: initial;
       text-align: center;
+
+      @include media(341px) {
+        font-size: 4rem;
+      }
     }
 
     .navigation {
