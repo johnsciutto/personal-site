@@ -43,118 +43,231 @@
       </div>
     </div>
   </div> -->
+
+  <!-- TODO: Create tags for each course ("javascript", "algorithms and data
+TODO: structures", "HTML & CSS", etc.) and then create little buttons at the
+TODO: beginning of the site to filter the courses by their tags (instead of
+TODO: doing it by titles) -->
   <main class="">
-    <h2 class="subtitle">Completed Courses</h2>
-    <article class="course__container">
-      <h4 class="course__name">FullStack JavaScript</h4>
-      <p class="course__author">Escuela Argentina de Nuevas Tecnologias</p>
-      <p class="course__description">Learned to program front end
-        applications using javascript. The course focused especially in using
-        javascript for DOM manipulation and logic flow. The course delved into
-        the construction of APIs, Web Services and Web Apps.</p>
-      <a href="http://" class="course__certificate">Certificate</a>
-    </article>
-    <article class="course__container">
-      <h4 class="course__name">How to Code: Simple Data</h4>
-      <p class="course__author">Gregor Kiczales - University of British
-        Columbia through EdX</p>
-      <p class="course__description">... .My certificate is pending until
-        they grade my final project (an implementation of Space Invaders in
-        Racket). Click on the link below to see the code of my final project. </p>
-      <a href="http://" class="course__certificate">Final Project</a>
-    </article>
-    <article class="course__container">
-      <h4 class="course__name">Web Design for Web Developers</h4>
-      <p class="course__author">Jonas Schemedtmann - Udemy</p>
-      <p class="course__description">...</p>
-      <a href="http://" class="course__certificate">Certificate</a>
-    </article>
-    <article class="course__container">
-      <h4 class="course__name">Build Responsive Real World Websites With HTML5 and CSS3</h4>
-      <p class="course__author">Jonas Schemedtmann - Udemy</p>
-      <p class="course__description">...</p>
-      <a href="http://" class="course__certificate">Certificate</a>
-    </article>
-    <article class="course__container">
-      <h4 class="course__name">JavaScript: The Advanced Concepts</h4>
-      <p class="course__author">Andrei Neagoie - Udemy</p>
-      <p class="course__description">...</p>
-      <a href="http://" class="course__certificate">Certificate</a>
-    </article>
-    <article class="course__container">
-      <h4 class="course__name">JavaScript Console Object Ultimate Guide</h4>
-      <p class="course__author">Alperen Talaslioglu - Udemy</p>
-      <p class="course__description">...</p>
-      <a href="http://" class="course__certificate">Certificate</a>
-    </article>
-    <article class="course__container">
-      <h4 class="course__name">The Coding Interview Bootcamp: Algorithms + Data Structures</h4>
-      <p class="course__author">Stephen rinder - Udemy</p>
-      <p class="course__description">...</p>
-      <a href="http://" class="course__certificate">Certificate</a>
-    </article>
-    <article class="course__container">
-      <h4 class="course__name">Vim Masterclass</h4>
-      <p class="course__author">Jason Cannon - Udemy</p>
-      <p class="course__description">...</p>
-      <a href="http://" class="course__certificate">Certificate</a>
-    </article>
-    <article class="course__container">
-      <h4 class="course__name">Functional Programming for Beginners With JavaScript</h4>
-      <p class="course__author">James Moore - Udemy</p>
-      <p class="course__description">...</p>
-      <a href="http://" class="course__certificate">Certificate</a>
-    </article>
-    <article class="course__container">
-      <h4 class="course__name">Advanced CSS and Sass</h4>
-      <p class="course__author">Jonas Schmedtmann - Udemy</p>
-      <p class="course__description">...</p>
-      <a href="http://" class="course__certificate">Certificate</a>
-    </article>
-    <article class="course__container">
-      <h4 class="course__name">The Modern Javascript Bootcamp Course</h4>
-      <p class="course__author">Colt Steele - Udemy</p>
-      <p class="course__description">...</p>
-      <a href="http://" class="course__certificate">Certificate</a>
-    </article>
-    <article class="course__container">
-      <h4 class="course__name">JavaScript: Understanding the Weird Parts</h4>
-      <p class="course__author">Anthonly Alicea - Udemy</p>
-      <p class="course__description">...</p>
-      <a href="http://" class="course__certificate">Certificate</a>
-    </article>
-    <article class="course__container">
-      <h4 class="course__name">JavaScript Algorithms and Data Structures Masterclass</h4>
-      <p class="course__author">Colt Steele - Udemy</p>
-      <p class="course__description">...</p>
-      <a href="http://" class="course__certificate">Certificate</a>
-    </article>
-    <article class="course__container">
-      <h4 class="course__name">The Complete 2020 Web Development Bootcamp</h4>
-      <p class="course__author">Dr. Angela Yu - Udemy</p>
-      <p class="course__description">...</p>
-      <a href="http://" class="course__certificate">Certificate</a>
-    </article>
-    <article class="course__container">
-      <h4 class="course__name">Mastering the Coding Interview: Data Structures + Algoritms</h4>
-      <p class="course__author">Andrei Neagoie - Udemy</p>
-      <p class="course__description">...</p>
-      <a href="http://" class="course__certificate">Certificate</a>
-    </article>
-    <article class="course__container">
+    <nav class="navigation">
+      <a href="#general-programming-principles">General Programming Principles</a>
+      <a href="#javascript">JavaScript</a>
+      <a href="#html-css">HTML & CSS</a>
+      <a href="#web-design">Web Design</a>
+      <a href="#algorithms">Algorithms & Data Structures</a>
+      <a href="#miscellaneous">Miscellaneous</a>
+    </nav>
+    <!-- TODO: Create button that navigates to top:  -->
+    <!-- TODO: <a href="#" class="btn__to-top">Back to Top</a> -->
+    <section id="general-programming-principles">
+      <h2 class="subtitle">General Programming Principles</h2>
+      <article class="course">
+        <h4 class="course__name">How to Code: Simple Data</h4>
+        <p class="course__author">Gregor Kiczales - University of British
+          Columbia through EdX</p>
+        <p class="course__description">Learned how to systematically design
+          programs and how to think about program design. It was also my first
+          exposure to designing data, and writing tests before writing the
+          functions that prove those tests. My certificate is pending until they
+          grade my final project (an implementation of Space Invaders in Racket).
+          Click on the link below to see the code of my final project. </p>
+        <a href="https://github.com/johnsciutto/how-to-code-simple-data/blob/master/space-invaders.rkt"
+          class="course__certificate" target="_blank">Final Project</a>
+      </article>
+    </section>
+    <section id="javascript">
+      <h2 class="subtitle">JavaScript</h2>
+      <article class="course">
+        <h4 class="course__name">FullStack JavaScript</h4>
+        <p class="course__author">Escuela Argentina de Nuevas Tecnologias</p>
+        <p class="course__description">Live, online 8 week workshop. Learned to
+          program front end applications using javascript. The course focused
+          especially in using javascript for DOM manipulation and logic flow. The
+          course delved into the construction of APIs, Web Services and Web
+          Apps.</p>
+        <a href="https://drive.google.com/file/d/1iWoLU0zalAY5u-CqyLn-w72OlXx7bnL0/view?usp=sharing" target="_blank"
+          class="course__certificate">Certificate</a>
+      </article>
+      <article class="course">
+        <h4 class="course__name">The Complete 2020 Web Development Bootcamp</h4>
+        <p class="course__author">Dr. Angela Yu - Udemy</p>
+        <p class="course__description">Pretty complete 50+ hour course. Reviewed the basics
+          of HTML, CSS and web design. Then dove into Javascript, and Node. It
+          was my first exposure to React and to MongoDB. Became proficient
+          creating RESTful APIs and implementing authentication with bcrypt and
+          OAuth 2.0 (although I later learned how to use the OpenID standard
+          for this, and leave OAuth 2.0 for authorization instead of
+          authentication).</p>
+        <a href="https://drive.google.com/file/d/1dP7CnGCiabBJ1d4XT0D4C9pYSWHhFobQ/view?usp=sharing" target="_blank"
+          class="course__certificate">Certificate</a>
+      </article>
+      <article class="course">
+        <h4 class="course__name">The Modern Javascript Bootcamp Course</h4>
+        <p class="course__author">Colt Steele - Udemy</p>
+        <p class="course__description">Another pretty complete 50+ hour
+          course. This is the course that I used to first learn JavaScript. It
+          dives quite deeply into the basics, and then moves onto asyncronous
+          JS (in this course I learned how to properly use promises and
+          async/await). I learned how to use SVGs and the Canvas API with the
+          MatterJS library. On the NodeJS side of the project, I learned how
+          to create CLI tools using JavaScript. In this course I also learned
+          some of the basics of database design, user authentication and
+          testing. I learned how some testing frameworks are built by
+          building a basic testing framweork from scratch.</p>
+        <a href="https://drive.google.com/file/d/1TtKaIVRkCY76yZLDnOF1Ac7Xd0-boEEI/view?usp=sharing" target="_blank"
+          class="course__certificate">Certificate</a>
+      </article>
+      <article class="course">
+        <h4 class="course__name">JavaScript: Understanding the Weird Parts</h4>
+        <p class="course__author">Anthonly Alicea - Udemy</p>
+        <p class="course__description">This was a fantastic course. In it I
+          learned a lot about how JS works behind the scenes, and some advanced
+          JS concepts. I learned about how scope works in JS (both with the var
+          keyword and the let and const keywords), how closures work. What
+          prototypal inheritance is and how it works... I learned a lot. But I
+          think the most important thing I learned was how to learn by
+          reading the source code of well used frameworks and libraries.</p>
+        <a href="https://drive.google.com/file/d/1Xu67V1Udw2mkwtVZhlkeT1SiaCJgWKhH/view?usp=sharing" target="_blank"
+          class="course__certificate">Certificate</a>
+      </article>
+      <article class="course">
+        <h4 class="course__name">JavaScript: The Advanced Concepts</h4>
+        <p class="course__author">Andrei Neagoie - Udemy</p>
+        <p class="course__description">In this course I learned a lot of more
+          advanced JS concepts. It's a great compliment to the "JavaScript:
+          Understanding the Weird Parts" course. I reviewed what I knew about
+          hoisting, execution context, lexical environment, the scope chain,
+          etc. This course also introduced me to functional programming in JS,
+          and how to do better error handling in asyncronous code.</p>
+        <a href="https://drive.google.com/file/d/1eCOA65ET0d7e4GuV91sZWmnslSWJb2w2/view?usp=sharing" target="_blank"
+          class="course__certificate">Certificate</a>
+      </article>
+      <article class="course">
+        <h4 class="course__name">Functional Programming for Beginners With JavaScript</h4>
+        <p class="course__author">James Moore - Udemy</p>
+        <p class="course__description">This was a fantastic course by James
+          Moore. I fell in love with functional programming. I learned about
+          the principles behind functional programming and how to apply them to
+          JS. I learned about currying and partial application, and function
+          composition. I also learned a lot of using a MVP type pattern to
+          structure small functional applications.</p>
+        <a href="https://drive.google.com/file/d/1k16Ja79u4sFzulRdSSxo2TNeTNyycfU-/view?usp=sharing" target="_blank"
+          class="course__certificate">Certificate</a>
+      </article>
+      <article class="course">
+        <h4 class="course__name">JavaScript Console Object Ultimate Guide</h4>
+        <p class="course__author">Alperen Talaslioglu - Udemy</p>
+        <p class="course__description">Learned how to use the console to
+          display information in different ways and to do some quick
+          debugging and testing of applications. No certificate of completion
+          was offered for this course.</p>
+      </article>
+    </section>
+    <section id="html-css">
+      <h2 class="subtitle">HTML & CSS</h2>
+      <article class="course">
+        <h4 class="course__name">Build Responsive Real World Websites With HTML5 and CSS3</h4>
+        <p class="course__author">Jonas Schemedtmann - Udemy</p>
+        <p class="course__description">This is the course that I used to
+          learn the basics of HTML and CSS. It was great to learn the basics. I
+          also learned how to structure a basic project and do some CSS
+          animations, but nothing ground-breaking.</p>
+        <a href="https://drive.google.com/file/d/1SMR5WeTWQbE1ytKTyw26we6npgVKdxYC/view?usp=sharing" target="_blank"
+          class="course__certificate">Certificate</a>
+      </article>
+      <article class="course">
+        <h4 class="course__name">Advanced CSS and Sass</h4>
+        <p class="course__author">Jonas Schmedtmann - Udemy</p>
+        <p class="course__description">This course was my first introduction
+          to Sass and CSS pre-processing in general. It was a great course in
+          which I learned how to write SCSS code and how to structure projects
+          using the 7-1 pattern.</p>
+        <a href="https://drive.google.com/file/d/1H7ZNnd779qrSKk9XqlkXhOnfjqD1nvuZ/view?usp=sharing" target="_blank"
+          class="course__certificate">Certificate</a>
+      </article>
+    </section>
+    <section id="web-design">
+      <h2 class="subtitle">Web Design</h2>
+      <article class="course">
+        <h4 class="course__name">Web Design for Web Developers</h4>
+        <p class="course__author">Jonas Schemedtmann - Udemy</p>
+        <p class="course__description">This was a good short course that gave
+          me a little more confidence in creating some basic designs for
+          websites. Desigining is not my strong-suite, and this course gave me
+          the basics I needed in order to not have my websites looking like
+          they were made in the 90's.</p>
+        <a href="https://drive.google.com/file/d/1ST8vCBIhD4jnU43bhP_HBsd7J0sAzBmv/view?usp=sharing" target="_blank"
+          class="course__certificate">Certificate</a>
+      </article>
+    </section>
+    <section id="algorithms">
+      <h2 class="subtitle">Algorithms and Data Structures</h2>
+      <article class="course">
+        <h4 class="course__name">JavaScript Algorithms and Data Structures Masterclass</h4>
+        <p class="course__author">Colt Steele - Udemy</p>
+        <p class="course__description">This was a great course. It was my
+          first introduction to what algorithms and data structures were. In
+          this course I learned 6 sorting algorithms, different ways of solving
+          problems, and how to write different data structures in JS using the
+          "class" syntax. I also learned about Dijkstra's Shortest Path
+          algorithm and how to write it in JS. But most importantly, I
+          discovered the genius of Dijkstra and ignited my interest for reading
+          more about him and other pioneers of computer science.</p>
+        <a href="https://drive.google.com/file/d/1bxiifHxLXGBuHlhl0jPaXagKWJE5kZdi/view?usp=sharing" target="_blank"
+          class="course__certificate">Certificate</a>
+      </article>
+      <article class="course">
+        <h4 class="course__name">The Coding Interview Bootcamp: Algorithms + Data Structures</h4>
+        <p class="course__author">Stephen Grinder - Udemy</p>
+        <p class="course__description">This was a fairly good course. I
+          didn't learn a lot of new things form it, but it helped me find
+          different approaches to solving problems and writing data structures
+          in JS. My biggest takeaway form the course was learning how to use
+          the "two pointer" pattern for problem solving in novel ways (for
+          example, to find the length of a linked list without having a
+          reference of it's tail; or to figure out if the linked list is
+          circular or not). This blew my mind.</p>
+        <a href="https://drive.google.com/file/d/1zJl-wm3LbibrMRI2C3S18aCUwkcQuvJi/view?usp=sharing" target="_blank"
+          class="course__certificate">Certificate</a>
+      </article>
+      <article class="course">
+        <h4 class="course__name">Mastering the Coding Interview: Data Structures + Algoritms</h4>
+        <p class="course__author">Andrei Neagoie - Udemy</p>
+        <p class="course__description">In this course I learned more about
+          data structures and algorithms. I cemented my knowledge of data
+          structures, particularly of hash tables, trees and graphs. I also
+          learned more about using "Dynamic Programming" (caching, really) to
+          optimize the execution of an algorithm.</p>
+        <a href="https://drive.google.com/file/d/1GJocmA-y2houSet8L65QCDzUK2DYOIpF/view?usp=sharing" target="_blank"
+          class="course__certificate">Certificate</a>
+      </article>
+    </section>
+    <section id="miscellaneous">
+      <h2 class="subtitle">Miscellaneous</h2>
+      <article class="course">
+        <h4 class="course__name">Vim Masterclass</h4>
+        <p class="course__author">Jason Cannon - Udemy</p>
+        <p class="course__description">In this course I learned how to use
+          the Vim editor. I fell in love with Vim, and I used it for many
+          months as my code editor. Lately, I've switched back to using VSCode,
+          but this time with Vim key bindings. The best of both worlds.</p>
+        <a href="https://drive.google.com/file/d/1SlO3kU1qvmhvuRdWgISXIv8FuOyv3mw9/view?usp=sharing" target="_blank"
+          class="course__certificate">Certificate</a>
+      </article>
+    </section>
+    <!-- <article class="course">
       <h4 class="course__name">Unified Modeling Language (UML): Complete Guide & Examples</h4>
       <p class="course__author">Maged Koshty - Udemy</p>
       <p class="course__description">...</p>
-      <a href="http://" class="course__certificate">Certificate</a>
-    </article>
-    <article class="course__container">
+      <a href="http://" target="_blank" class="course__certificate">Certificate</a>
+    </article> -->
+    <!-- <article class="course">
       <h4 class="course__name">Mastering Clean Code in JavaScript</h4>
       <p class="course__author">Dimitris Loukas - Udemy</p>
       <p class="course__description">...</p>
-      <a href="http://" class="course__certificate">Certificate</a>
-    </article>
-    <h2 class="subtitle">Courses in Progress</h2>
-    <article class="course__container">
+      <a href="http://" target="_blank" class="course__certificate">Certificate</a>
+    </article> -->
+    <!-- <article class="course">
       <h4 class="course__name">BackEnd with Node.js</h4>
       <p class="course__author">Escuela Argentina de Nuevas Tecnologias</p>
       <p class="course__description">Learned to build APIs and Web Services
@@ -162,11 +275,11 @@
         Learned how to mount complex web-project, working with real-time
         data. Mounting projects on serverles platforms such as Heroku, Vercel
         and Netlify.</p>
-      <!-- <a href="http://" class="course__certificate">Certificate</a> -->
-    </article>
-    <h2 class="subtitle">Upcoming Courses</h2>
+      <a href="http://" target="_blank" class="course__certificate">Certificate</a>
+    </article> -->
   </main>
 
+  <!-- TODO: Include button to navigate to the top -->
 
   <footer class="footer-straight">
     <div class="footer-container">
