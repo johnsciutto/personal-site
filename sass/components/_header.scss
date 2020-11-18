@@ -83,5 +83,43 @@
         // margin-top: 25px;
       }
   }
+
+  &--small {
+    margin-bottom: 5rem;
+
+    .title {
+      color: whitesmoke;
+      background-color: rgba(15, 115, 142, 0.8);
+      font-size: 5rem;
+      padding: 2rem;
+      line-height: initial;
+      text-align: center;
+    }
+
+    .navigation {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: rgba(58, 156, 184, 0.8);
+
+      a {
+        &:link,
+        &:active,
+        &:visited {
+          padding: 9px 2rem;
+          text-decoration: none;
+          text-transform: lowercase;
+          font-size: 2rem;
+          color: whitesmoke;
+          transition: all 0.2s;
+        }
+
+        &:hover {
+          background-color: gray;
+        }
+      }
+    }
+
+  }
     
 }
