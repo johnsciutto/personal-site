@@ -1,26 +1,3 @@
-.navigation-header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: $color-primary-dark;
-
-  a {
-    &:link,
-    &:active,
-    &:visited {
-      padding: 9px 2rem;
-      text-decoration: none;
-      text-transform: lowercase;
-      font-size: 2rem;
-      color: $color-white;
-      transition: all 0.2s;
-    }
-
-    &:hover {
-      background-color: $color-gray-light;
-    }
-  }
-}
 
 .footer-navigation {
   margin-bottom: 2rem;

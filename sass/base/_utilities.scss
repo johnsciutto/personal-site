@@ -14,7 +14,7 @@
 .u-color-tertiary-light { color: $color-tertiary-light !important }
 .u-color-tertiary-dark { color: $color-tertiary-dark !important }
 
-// BG COLORS
+// BACKGROUND COLORS
 .u-bg-color-black { background-color: $color-black !important }
 .u-bg-color-white { background-color: $color-white !important }
 
@@ -29,3 +29,11 @@
 .u-bg-color-tertiary { background-color: $color-tertiary !important }
 .u-bg-color-tertiary-light { background-color: $color-tertiary-light !important }
 .u-bg-color-tertiary-dark { background-color: $color-tertiary-dark !important }
+
+// MARGINS
+.u-margin-bottom-xs { margin-bottom: 0.5rem !important }
+.u-margin-bottom-s { margin-bottom: 1rem !important }
+.u-margin-bottom-m { margin-bottom: 2rem !important }
+.u-margin-bottom-l { margin-bottom: 3rem !important }
+.u-margin-bottom-xl { margin-bottom: 4rem !important }
+.u-margin-bottom-xxl { margin-bottom: 5rem !important }
