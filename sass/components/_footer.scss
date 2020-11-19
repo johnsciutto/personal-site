@@ -48,33 +48,6 @@
       }
   }
 
-  &__nav {
-
-    margin-bottom: 2rem;
-    
-    a {
-      &:link,
-      &:active,
-      &:visited {
-        margin-left: -0.5rem;
-        padding: 0.5rem 2rem;
-        text-decoration: none;
-        text-transform: uppercase;
-        color: $color-white-t-80;
-        letter-spacing: 0.1rem;
-        transition: all .2s;
-
-        &:not(:last-child) {
-          border-right: 1px solid $color-white;
-        }
-      }
-
-      &:hover {
-        background-color: $color-white;
-        color: $color-gray;
-      }
-    }
-  }
 
   &__contact-info {
       margin-bottom: 4rem;

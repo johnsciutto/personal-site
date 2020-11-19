@@ -2,3 +2,27 @@
   display: flex;
   justify-content: space-evenly;
 }
+
+.container-tag {
+  height: 7rem;
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  flex-wrap: wrap;
+
+  @include media(940px) {
+    margin-bottom: 2rem;
+  }
+
+  @include media(484px) {
+    height: 11rem;
+  }
+
+  @include media(341px) {
+    height: 15rem;
+  }
+
+  @include media(330px) {
+    height: 19rem;
+  }
+}

@@ -149,38 +149,25 @@ body {
     @media only screen and (max-width: 450px) {
       .header__subtitle {
         font-size: 1.5rem; } }
-  .header--small {
-    margin-bottom: 5rem;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    overflow: hidden; }
-    @media only screen and (max-width: 800px) {
-      .header--small {
-        margin-bottom: 3rem; } }
-    .header--small .title {
-      color: #f5f5f5;
-      background-color: #0f738ecc;
-      font-size: 5rem;
-      padding: 2rem;
-      line-height: initial;
-      text-align: center; }
-      @media only screen and (max-width: 341px) {
-        .header--small .title {
-          font-size: 4rem; } }
-    .header--small .navigation {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background-color: #0a4e60; }
-      .header--small .navigation a:link, .header--small .navigation a:active, .header--small .navigation a:visited {
-        padding: 9px 2rem;
-        text-decoration: none;
-        text-transform: lowercase;
-        font-size: 2rem;
-        color: #f5f5f5;
-        transition: all 0.2s; }
-      .header--small .navigation a:hover {
-        background-color: #4d5251; }
+
+.header-small {
+  margin-bottom: 5rem;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  overflow: hidden; }
+  @media only screen and (max-width: 800px) {
+    .header-small {
+      margin-bottom: 3rem; } }
+  .header-small .title {
+    color: #f5f5f5;
+    background-color: #0f738ecc;
+    font-size: 5rem;
+    padding: 2rem;
+    line-height: initial;
+    text-align: center; }
+    @media only screen and (max-width: 341px) {
+      .header-small .title {
+        font-size: 4rem; } }
 
 .footer {
   font-size: 1.8rem;
@@ -223,21 +210,6 @@ body {
     @media only screen and (max-width: 450px) {
       .footer-layout {
         height: 100%; } }
-  .footer__nav {
-    margin-bottom: 2rem; }
-    .footer__nav a:link, .footer__nav a:active, .footer__nav a:visited {
-      margin-left: -0.5rem;
-      padding: 0.5rem 2rem;
-      text-decoration: none;
-      text-transform: uppercase;
-      color: #f5f5f5cc;
-      letter-spacing: 0.1rem;
-      transition: all .2s; }
-      .footer__nav a:link:not(:last-child), .footer__nav a:active:not(:last-child), .footer__nav a:visited:not(:last-child) {
-        border-right: 1px solid #f5f5f5; }
-    .footer__nav a:hover {
-      background-color: #f5f5f5;
-      color: #343837; }
   .footer__contact-info {
     margin-bottom: 4rem; }
     @media only screen and (max-width: 550px) {
@@ -323,6 +295,29 @@ body {
     background-image: linear-gradient(to right, #f5f5f5cc, #f5f5f5cc), url(../../img/massage-pic.jpg); }
   .btn-round--portfolio-friend {
     background-image: linear-gradient(to right, #f5f5f5cc, #f5f5f5cc), url(../../img/friends-pic.jpg); }
+
+.tag-pill {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border: none;
+  border-radius: 100px;
+  margin: 0 0.5rem;
+  background-color: #f5f5f5;
+  padding: 1rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #0f738ecc;
+  transition: all 0.2s; }
+  @media only screen and (max-width: 341px) {
+    .tag-pill {
+      font-size: 1.5rem; } }
+  .tag-pill:hover {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transform: translateY(-1px); }
+  .tag-pill:active {
+    box-shadow: none;
+    transform: translateY(0); }
 
 .card {
   perspective: 150rem;
@@ -457,9 +452,59 @@ body {
   font-size: 3rem;
   color: rgba(15, 115, 142, 0.8); }
 
+.navigation-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0a4e60; }
+  .navigation-header a:link, .navigation-header a:active, .navigation-header a:visited {
+    padding: 9px 2rem;
+    text-decoration: none;
+    text-transform: lowercase;
+    font-size: 2rem;
+    color: #f5f5f5;
+    transition: all 0.2s; }
+  .navigation-header a:hover {
+    background-color: #4d5251; }
+
+.navigation-footer {
+  margin-bottom: 2rem; }
+  .navigation-footer a:link, .navigation-footer a:active, .navigation-footer a:visited {
+    margin-left: -0.5rem;
+    padding: 0.5rem 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #f5f5f5cc;
+    letter-spacing: 0.1rem;
+    transition: all .2s; }
+    .navigation-footer a:link:not(:last-child), .navigation-footer a:active:not(:last-child), .navigation-footer a:visited:not(:last-child) {
+      border-right: 1px solid #f5f5f5; }
+  .navigation-footer a:hover {
+    background-color: #f5f5f5;
+    color: #343837; }
+
 .main-button-container {
   display: flex;
   justify-content: space-evenly; }
+
+.container-tag {
+  height: 7rem;
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  flex-wrap: wrap; }
+  @media only screen and (max-width: 940px) {
+    .container-tag {
+      margin-bottom: 2rem; } }
+  @media only screen and (max-width: 484px) {
+    .container-tag {
+      height: 11rem; } }
+  @media only screen and (max-width: 341px) {
+    .container-tag {
+      height: 15rem; } }
+  @media only screen and (max-width: 330px) {
+    .container-tag {
+      height: 19rem; } }
 
 .skew-container {
   transform: skewY(-4deg);
@@ -469,44 +514,3 @@ body {
   padding-bottom: 20rem; }
   .skew-container > * {
     transform: skewY(4deg); }
-
-.tag-navigation {
-  height: 7rem;
-  display: flex;
-  justify-content: center;
-  align-content: space-between;
-  flex-wrap: wrap; }
-  @media only screen and (max-width: 940px) {
-    .tag-navigation {
-      margin-bottom: 2rem; } }
-  @media only screen and (max-width: 484px) {
-    .tag-navigation {
-      height: 11rem; } }
-  @media only screen and (max-width: 341px) {
-    .tag-navigation {
-      height: 15rem; } }
-  @media only screen and (max-width: 330px) {
-    .tag-navigation {
-      height: 19rem; } }
-  .tag-navigation a {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    border: none;
-    border-radius: 100px;
-    margin: 0 0.5rem;
-    background-color: whitesmoke;
-    padding: 1rem;
-    text-decoration: none;
-    font-size: 1.5rem;
-    color: rgba(15, 115, 142, 0.8);
-    transition: all 0.2s; }
-    @media only screen and (max-width: 341px) {
-      .tag-navigation a {
-        font-size: 1.5rem; } }
-    .tag-navigation a:hover {
-      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-      transform: translateY(-1px); }
-    .tag-navigation a:active {
-      box-shadow: none;
-      transform: translateY(0); }
