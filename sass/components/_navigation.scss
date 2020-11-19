@@ -22,10 +22,10 @@
   }
 }
 
-.navigation-footer {
+.footer-navigation {
   margin-bottom: 2rem;
   
-  a {
+  &__links {
     &:link,
     &:active,
     &:visited {

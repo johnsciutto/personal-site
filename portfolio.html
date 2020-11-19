@@ -7,30 +7,29 @@
   <title>Portfolio</title>
   <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css">
-  <script src="app.js"></script>
+  <script src="script.js" defer></script>
 </head>
 
-<body>
-  <header class="header">
-    <div class="header__title-container">
-      <h1 class="header__title">John Sciutto</h1>
-      <h2 class="header__subtitle">Portfolio</h2>
-    </div>
-  </header>
-  <main class="skew-container main-portfolio u-bg-color-white">
-    <div class="main-button-container">
-      <a href="#" class="btn-round btn-round--portfolio-blog">
-        <p class="btn-round__text u-color-tertiary">Blog</p>
-      </a>
-      <a href="#" class="btn-round btn-round--portfolio-massage">
-        <p class="btn-round__text u-color-secondary">Clinical Impression App</p>
-      </a>
-      <a href="#" class="btn-round btn-round--portfolio-friend">
-        <p class="btn-round__text u-color-primary">Friendly Reminder</p>
-      </a>
-      <!-- TODO: Create cards, one for each project, using all the effects
+<header class="header">
+  <div class="header__title-container">
+    <h1 class="header__title">John Sciutto</h1>
+    <h2 class="header__subtitle">Portfolio</h2>
+  </div>
+</header>
+<main class="skew-container main-portfolio u-bg-color-white">
+  <div class="main-button-container">
+    <a href="#" class="btn-round btn-round--portfolio-blog">
+      <p class="btn-round__text u-color-tertiary">Blog</p>
+    </a>
+    <a href="#" class="btn-round btn-round--portfolio-massage">
+      <p class="btn-round__text u-color-secondary">Clinical Impression App</p>
+    </a>
+    <a href="#" class="btn-round btn-round--portfolio-friend">
+      <p class="btn-round__text u-color-primary">Friendly Reminder</p>
+    </a>
+    <!-- TODO: Create cards, one for each project, using all the effects
       <!-- TODO: from Natours -->
-      <!-- <div class="card">
+    <!-- <div class="card">
         <div class="card__side--front">
           This is going the be the front of the card.
         </div>
@@ -54,24 +53,24 @@
           This is going to be the back of the card.
         </div>
       </div> -->
+  </div>
+</main>
+<footer class="footer">
+  <div class="footer-layout">
+    <div class="footer__contact-info">
+      <a class="footer__email" target="_blank" href="mailto:john@johnsciutto.com">john@johnsciutto.com</a>
+      <!-- TODO: Add social links: LinkedIn, GitHub, Twitter  -->
     </div>
-  </main>
-  <footer class="footer">
-    <div class="footer-layout">
-      <div class="footer__contact-info">
-        <a class="footer__email" target="_blank" href="mailto:john@johnsciutto.com">john@johnsciutto.com</a>
-        <!-- TODO: Add social links: LinkedIn, GitHub, Twitter  -->
-      </div>
-      <nav class="footer__nav">
-        <a href="/index.html">Home</a>
-        <a href="/certifications.html">Certifications</a>
-      </nav>
-      <p class="footer__copyright">
-        Juan Sciutto &copy; <span class="copy-year"></span> All
-        rights reserved.
-      </p>
-    </div>
-  </footer>
+    <nav class="footer-navigation">
+      <a class="footer-navigation__links" href="/index.html">Home</a>
+      <a class="footer-navigation__links" href="/certifications.html">Certifications</a>
+    </nav>
+    <p class="footer__copyright">
+      Juan Sciutto &copy; <span class="copy-year"></span> All
+      rights reserved.
+    </p>
+  </div>
+</footer>
 </body>
 
 </html>
