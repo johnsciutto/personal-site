@@ -1,9 +1,8 @@
 .footer {
     font-size: 1.8rem;
     text-align: center;
-    background-color: #555;
+    background-color: $color-gray-light;
     height: 45rem;
-    clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 100%);
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     padding-top: 17rem;
@@ -21,13 +20,11 @@
     }
 
     @include media(450px) {
-      clip-path: $clip-reset;
       height: 15rem;
       padding-top: 2rem;
     }
 
-    &-straight {
-      clip-path: none;
+    &--small {
       font-size: 1.8rem;
       text-align: center;
       background-color: #555;
@@ -37,10 +34,9 @@
       align-items: center;
       border-bottom-left-radius: 5px;
       border-bottom-right-radius: 5px;
-
     }
 
-  &-container {
+  &-layout {
       height: 20rem;
       display: flex;
       flex-direction: column;
@@ -64,18 +60,18 @@
         padding: 0.5rem 2rem;
         text-decoration: none;
         text-transform: uppercase;
-        color: rgba(245, 245, 245, 0.80);
+        color: $color-white-t-80;
         letter-spacing: 0.1rem;
         transition: all .2s;
 
         &:not(:last-child) {
-          border-right: 1px solid rgba(245, 245, 245, 0.80);
+          border-right: 1px solid $color-white;
         }
       }
 
       &:hover {
-        background-color: rgba(245, 245, 245, 0.8);
-        color: #555;
+        background-color: $color-white;
+        color: $color-gray;
       }
     }
   }
@@ -95,6 +91,7 @@
   &__copyright {
       letter-spacing: 0.1rem;
       word-spacing: 0.1rem;
+      color: $color-white-t-50;
   }
 
   &__email:link,

@@ -1,12 +1,15 @@
 @import "mixins/mixins";
 @import "abstracts/variables";
+@import "base/utilities";
 @import "base/base";
 
 @import "components/header";
 @import "components/footer";
 @import "components/button";
-@import "components/card";
+@import "components/cards";
+@import "components/headings";
 
-@import "pages/home";
+@import "layouts/flex-containers";
+@import "layouts/skew-containers";
+
 @import "pages/certifications";
-@import "pages/portfolio";

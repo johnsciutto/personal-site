@@ -1,5 +1,8 @@
 # To-Do List for Personal Site
 
+- [ ] Make buttons into propper compnents
+  - [ ] Change CSS styles to make sure that it looks the way I want to.
+
 ## Portfolio
 
 - [ ] Do the media queries for the "portfolio" site.
@@ -28,7 +31,7 @@
 
 ## Done Items
 
-### Nov 18
+### Nov 19
 
 - [X] Edit buttons in ul to look like little pills that are horizontal.
 - [X] Fill out all descriptions.

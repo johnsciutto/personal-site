@@ -1,0 +1,11 @@
+.skew-container {
+  transform: skewY(-4deg);
+  margin-top: -7rem;
+  margin-bottom: -7rem;
+  padding-top: 20rem;
+  padding-bottom: 20rem;
+
+  & > * {
+    transform: skewY(4deg);
+  }
+}

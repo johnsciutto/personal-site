@@ -1,7 +1,26 @@
-$clip-image: polygon(0 0, 100% 0, 100% 80%, 0 100%);
-$clip-reset: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+$color-black: #111111;
+$color-black-t-50: #11111180;
+$color-black-t-80: #111111cc;
+$color-white: #f5f5f5;
+$color-white-t-50: #f5f5f580;
+$color-white-t-80: #f5f5f5cc;
 
-$color-black: rgba(0,0,0,1);
-$color-white: rgba(255,255,255,1)
+$color-gray: #343837;
+$color-gray-t-80: #343837cc;
+$color-gray-light: lighten(#343837, 10%);
+$color-gray-dark: darken(#343837, 10%);
 
-// $color-primary-light: 
+$color-primary: #0f738e;
+$color-primary-t-80: #0f738ecc;
+$color-primary-light: lighten($color-primary, 10%);
+$color-primary-dark: darken($color-primary, 10%);
+
+$color-secondary: #03719c;
+$color-secondary-t-80: #03709bcc;
+$color-secondary-light: lighten($color-secondary, 10%);
+$color-secondary-dark: darken($color-secondary, 10%);
+
+$color-tertiary: #343837;
+$color-tertiary-t-80: #343837cc;
+$color-tertiary-light: lighten($color-tertiary, 10%);
+$color-tertiary-dark: darken($color-tertiary, 10%);
