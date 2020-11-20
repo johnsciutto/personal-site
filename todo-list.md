@@ -2,6 +2,7 @@
 
 ## To-Do
 
+- [ ] Check to see if I have a Netlify blog working.
 - [ ] Create a redirect to make sure that blog.johnsciutto.com goes to my blog.
 - [ ] Link my blog from my main site.
 - [ ] Link my blog from my portfolio site.
@@ -16,7 +17,8 @@
 
 ## Doing
 
-- [ ] Check to see if I have a Netlify blog working.
+- [ ] Fix image positioning inconsistent online and in development. Maybe cut
+      an copy of the image and present it as a srcset for a different size?
 
 ## Done
 
@@ -47,3 +49,4 @@
 - [X] Finish media queries for Home (5) { est: 30min, act: 2h19min }
 - [X] Finish media queries for Portfolio
 - [X] Finish media queries for Certifications (2) { est: 20min; act: 13min }
+- [X] Add the compiled files to the server (1) { exp: 5min; act: 5min }
