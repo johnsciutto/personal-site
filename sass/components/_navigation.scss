@@ -1,6 +1,17 @@
 
 .footer-navigation {
   margin-bottom: 2rem;
+
+  @include media(550px) {
+    margin-bottom: 4rem;
+  }
+
+  @include media(450px) {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+  }
   
   &__links {
     &:link,
@@ -16,6 +27,11 @@
 
       &:not(:last-child) {
         border-right: 1px solid $color-white;
+
+        @include media(450px) {
+          border-right: none;
+        }
+
       }
     }
 

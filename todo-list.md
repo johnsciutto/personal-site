@@ -2,9 +2,6 @@
 
 ## To-Do
 
-- [ ] Finish media queries for Portfolio
-- [ ] Finish media queries for Certifications
-
 - [ ] Check to see if I have a Netlify blog working.
 - [ ] Create a redirect to make sure that blog.johnsciutto.com goes to my blog.
 - [ ] Link my blog from my main site.
@@ -20,7 +17,7 @@
 
 ## Doing
 
-- [ ] Finish media queries for Home
+- [ ] Finish media queries for Certifications
 
 ## Done
 
@@ -48,4 +45,5 @@
 - [X] Add navigation links to home and certifications in the footer
 - [X] Add the footer links to the footer in the portfolio page.
 - [X] Edit the styles of the footer links.
-
+- [X] Finish media queries for Home (5) { est: 30min, act: 2h19min }
+- [X] Finish media queries for Portfolio

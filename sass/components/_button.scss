@@ -15,6 +15,16 @@
     text-decoration: none;
     transition: all 0.2s linear;
 
+    @include media(360px) {
+      min-height: 15rem;
+      min-width: 15rem;
+    }
+
+    @include media(300px) {
+      min-height: 12rem;
+      min-width: 12rem;
+    }
+
     &:hover {
       transform: translateY(-3px);
       box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.4);
@@ -32,9 +42,14 @@
       font-weight: 700;
 
       @include media(1100px) { font-size: 3rem; }
-      @include media(660px) { font-size: 4rem; }
-      @include media(550px) { font-size: 3.5rem; }
-      @include media(450px) { font-size: 3rem; }
+      @include media(360px) {
+        font-size: 2.5rem;
+        line-height: 3rem;
+      }
+      @include media(300px) { 
+        font-size: 2rem; 
+        line-height: 2.5rem;
+      }
 
       &--1 { 
         color: #343837;

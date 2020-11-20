@@ -8,6 +8,14 @@
     justify-content: space-between;
     height: 65rem;
   }
+
+  @include media(360px) {
+    height: 50rem;
+  }
+  
+  @include media(300px) {
+    height: 40rem;
+  }
 }
 
 .container-tag {
