@@ -120,8 +120,30 @@
     background-color: $color-primary;
     font-size: 5rem;
 
-    @include media(341px) {
+    @include media(800px) {
+      font-size: 4.5rem;
+    }
+
+    @include media(700px) {
       font-size: 4rem;
+    }
+
+    @include media(600px) {
+      font-size: 3.5rem;
+    }
+
+    @include media(660px) {
+      height: 13rem;
+    }
+
+    @include media(500px) {
+      padding: 2rem;
+      text-align: center;
+      line-height: 4rem;
+    }
+
+    @include media(341px) {
+      // font-size: 4rem;
     }
   }
 

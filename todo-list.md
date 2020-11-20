@@ -2,7 +2,6 @@
 
 ## To-Do
 
-- [ ] Check to see if I have a Netlify blog working.
 - [ ] Create a redirect to make sure that blog.johnsciutto.com goes to my blog.
 - [ ] Link my blog from my main site.
 - [ ] Link my blog from my portfolio site.
@@ -17,7 +16,7 @@
 
 ## Doing
 
-- [ ] Finish media queries for Certifications
+- [ ] Check to see if I have a Netlify blog working.
 
 ## Done
 
@@ -47,3 +46,4 @@
 - [X] Edit the styles of the footer links.
 - [X] Finish media queries for Home (5) { est: 30min, act: 2h19min }
 - [X] Finish media queries for Portfolio
+- [X] Finish media queries for Certifications (2) { est: 20min; act: 13min }

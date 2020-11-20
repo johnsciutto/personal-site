@@ -63,6 +63,7 @@
     letter-spacing: 0.1rem;
     word-spacing: 0.1rem;
     color: $color-white-t-50;
+    line-height: 2rem;
   }
 
   &__email:link,
@@ -75,6 +76,11 @@
 
     @include media(550px) {
       margin-bottom: 2rem;
+    }
+
+    @include media(300px) {
+      font-size: 1.6rem;
+      margin-bottom: 3rem;
     }
   }
 
