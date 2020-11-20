@@ -1,7 +1,7 @@
 # To-Do List for Personal Site
 
-- [ ] Make buttons into propper compnents
-  - [ ] Change CSS styles to make sure that it looks the way I want to.
+- [X] Make buttons into propper compnents
+  - [X] Change CSS styles to make sure that it looks the way I want to.
 
 ## Portfolio
 

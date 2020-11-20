@@ -1,6 +1,13 @@
 .main-button-container {
   display: flex;
   justify-content: space-evenly;
+
+  @include media(700px) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 65rem;
+  }
 }
 
 .container-tag {

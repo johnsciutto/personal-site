@@ -1,11 +1,27 @@
 .skew-container {
   transform: skewY(-4deg);
-  margin-top: -7rem;
-  margin-bottom: -7rem;
-  padding-top: 20rem;
-  padding-bottom: 20rem;
+  margin: -7rem 0;
+  padding: 20rem 0;
+
+  @include media(700px) {
+    padding: 10rem 0;
+  }
+
+  @include media(450px) {
+    transform: skewY(0deg);
+    margin: 0;
+  }
 
   & > * {
     transform: skewY(4deg);
+
+    @include media(450px) {
+      transform: skewY(0deg);
+    }
+  }
+
+  &.bg-mobile-pic {
+    // TODO: Add background picture here, and make the background
+    // TODO:  of the container transparent.
   }
 }
