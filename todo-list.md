@@ -1,38 +1,35 @@
-# To-Do List for Personal Site
+# Personal Site Boards
 
-- [X] Make buttons into propper compnents
-  - [X] Change CSS styles to make sure that it looks the way I want to.
+## To-Do
 
-## Portfolio
-
-- [ ] Do the media queries for the "portfolio" site.
-- [ ] Test idea: What if I set a negative z-index for the header and footer,
-    and then just skewed the main section of the site and counter-skew the
-    children. That might work to make the edges more aligned without having to
-    play so much with the top and bottom clip-path.
-
-## Blog
+- [ ] Finish media queries for Portfolio
+- [ ] Finish media queries for Certifications
 
 - [ ] Check to see if I have a Netlify blog working.
-- [ ] Read about how to link my blog to a custom subdomain created in cPanel
-      (goDaddy hosting).
+- [ ] Create a redirect to make sure that blog.johnsciutto.com goes to my blog.
 - [ ] Link my blog from my main site.
 - [ ] Link my blog from my portfolio site.
 - [ ] Add link to my blog from top flat navigation in "certifications"
 - [ ] Add link to my blog from footer navigation in all pages.
 - [ ] Create a schedule to write/publish posts.
 - [ ] Test the blog by publishing one article directly from VSCode using git.
-- [ ] Assess where I am and create more to-do's if necessary.
-
-## Later
-
+- [ ] Create a resume single page up on Netlify, linked from my GitHub.
 - [ ] Certifications Page: Add fixed round button with up pointing arrow in
       bottom right corner to navigate up.
+- [ ] Plan out the stories for my Clinical Impressions App.
 
-## Done Items
+## Doing
 
-### Nov 19
+- [ ] Finish media queries for Home
 
+## Done
+
+- [X] Make buttons into propper compnents
+  - [X] Change CSS styles to make sure that it looks the way I want to.
+- [X] Test idea: What if I set a negative z-index for the header and footer,
+    and then just skewed the main section of the site and counter-skew the
+    children. That might work to make the edges more aligned without having to
+    play so much with the top and bottom clip-path.
 - [X] Edit buttons in ul to look like little pills that are horizontal.
 - [X] Fill out all descriptions.
 - [X] Go description by description highlighting all the key words
@@ -51,3 +48,4 @@
 - [X] Add navigation links to home and certifications in the footer
 - [X] Add the footer links to the footer in the portfolio page.
 - [X] Edit the styles of the footer links.
+
