@@ -2,18 +2,15 @@
 
 ## To-Do
 
-- [ ] Add link to my blog from top flat navigation in "certifications"
-- [ ] Add link to my blog from footer navigation in all pages.
-- [ ] Create a schedule to write/publish posts.
-- [ ] Test the blog by publishing one article directly from VSCode using git.
-- [ ] Create a resume single page up on Netlify, linked from my GitHub.
+- [ ] Create a redirect to make sure that blog.johnsciutto.com goes to my blog.
+  - bug: run into an issue with SSL certificates. I need to have a "*"
+    certificate to cover all the sub-domains, and I don't have that.
 - [ ] Certifications Page: Add fixed round button with up pointing arrow in
       bottom right corner to navigate up.
-- [ ] Plan out the stories for my Clinical Impressions App.
 
 ## Doing
 
-- [ ] Create a redirect to make sure that blog.johnsciutto.com goes to my blog.
+- [ ] Plan out the stories for my Clinical Impressions App.
 
 ## Done
 
@@ -52,3 +49,8 @@
 - [X] Create a blog using Netlify and Hugo.
 - [X] Link my blog from my main site.
 - [X] Link my blog from my portfolio site.
+- [X] Add link to my blog from top flat navigation in "certifications"
+- [X] Add link to my blog from footer navigation in all pages.
+- [X] Test the blog by publishing one article directly from VSCode using git.
+- [X] Create a resume single page up on Netlify, linked from my GitHub.
+- [X] Create a schedule to write/publish posts. { expected: 1hs , actual: 1hs}
