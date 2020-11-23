@@ -2,7 +2,6 @@
 
 ## To-Do
 
-- [ ] Check to see if I have a Netlify blog working.
 - [ ] Create a redirect to make sure that blog.johnsciutto.com goes to my blog.
 - [ ] Link my blog from my main site.
 - [ ] Link my blog from my portfolio site.
@@ -17,14 +16,7 @@
 
 ## Doing
 
-- [ ] Fix image positioning inconsistent online and in development. Maybe cut
-      an copy of the image and present it as a srcset for a different size?
-      - Make a note on what is the size in which things go to shit: 750px.
-      - Research online how to do responsive images.
-      - Open gimp and make a copy of the image to cut it.
-      - Cut the image to a size that seems appropriate.
-      - Write the code in the html of the portfolio page and the home page to
-          have the images switch at the appropriate size.
+- [ ] Create a blog using Netlify and Hugo.
 
 ## Done
 
@@ -56,3 +48,7 @@
 - [X] Finish media queries for Portfolio
 - [X] Finish media queries for Certifications (2) { est: 20min; act: 13min }
 - [X] Add the compiled files to the server (1) { exp: 5min; act: 5min }
+- [X] Fix image positioning inconsistent online and in development. Maybe cut
+      an copy of the image and present it as a srcset for a different size?
+- [X] Check to see if I have a Netlify blog working.  
+      { expected: 3min; start: 11:44, end: 11:45, actual:1}
