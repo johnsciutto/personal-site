@@ -10,8 +10,6 @@
 
 ## Doing
 
-- [ ] Plan out the stories for my Clinical Impressions App.
-
 ## Done
 
 - [X] Make buttons into proper components
@@ -54,3 +52,5 @@
 - [X] Test the blog by publishing one article directly from VSCode using git.
 - [X] Create a resume single page up on Netlify, linked from my GitHub.
 - [X] Create a schedule to write/publish posts. { expected: 1hs , actual: 1hs}
+- [X] Plan out the stories for my Clinical Impressions App. { estimated:
+      25min, actual: 41min }
