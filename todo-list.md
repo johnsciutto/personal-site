@@ -19,16 +19,22 @@
 
 - [ ] Fix image positioning inconsistent online and in development. Maybe cut
       an copy of the image and present it as a srcset for a different size?
+      - Make a note on what is the size in which things go to shit: 750px.
+      - Research online how to do responsive images.
+      - Open gimp and make a copy of the image to cut it.
+      - Cut the image to a size that seems appropriate.
+      - Write the code in the html of the portfolio page and the home page to
+          have the images switch at the appropriate size.
 
 ## Done
 
-- [X] Make buttons into propper compnents
+- [X] Make buttons into proper components
   - [X] Change CSS styles to make sure that it looks the way I want to.
 - [X] Test idea: What if I set a negative z-index for the header and footer,
     and then just skewed the main section of the site and counter-skew the
     children. That might work to make the edges more aligned without having to
     play so much with the top and bottom clip-path.
-- [X] Edit buttons in ul to look like little pills that are horizontal.
+- [X] Edit buttons in unordered list to look like little pills that are horizontal.
 - [X] Fill out all descriptions.
 - [X] Go description by description highlighting all the key words
       (frameworks, skills and libraries).

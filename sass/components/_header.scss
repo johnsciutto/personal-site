@@ -7,7 +7,7 @@
             $color-primary-t-80,
             $color-primary-t-80
         ),
-        url('./img/profile-pic.jpg');
+        url('./img/profile-pic-large.jpg');
     background-size: cover;
     background-position: center;
     height: 75vh;
@@ -22,22 +22,15 @@
 
     @include media(750px) {
       height: 110vh;
-    }
-
-    @include media(700px) {
-      background-position-x: -600px;
-    }
-
-    @include media(660px) {
-      background-position-x: -630px;
-    }
-
-    @include media(550px) {
-      background-position-x: -685px;
-    }
-
-    @include media(500px) {
-      background-position-x: -700px;
+      background: linear-gradient(
+              to right,
+              $color-primary-t-80,
+              $color-primary-t-80
+          ),
+          url('./img/profile-pic-medium.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
     }
 
     @include media(450px) {

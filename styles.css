@@ -121,7 +121,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background: linear-gradient(to right, #0f738ecc, #0f738ecc), url("./img/profile-pic.jpg");
+  background: linear-gradient(to right, #0f738ecc, #0f738ecc), url("./img/profile-pic-large.jpg");
   background-size: cover;
   background-position: center;
   height: 75vh;
@@ -134,19 +134,11 @@ body {
       justify-content: center; } }
   @media only screen and (max-width: 750px) {
     .header {
-      height: 110vh; } }
-  @media only screen and (max-width: 700px) {
-    .header {
-      background-position-x: -600px; } }
-  @media only screen and (max-width: 660px) {
-    .header {
-      background-position-x: -630px; } }
-  @media only screen and (max-width: 550px) {
-    .header {
-      background-position-x: -685px; } }
-  @media only screen and (max-width: 500px) {
-    .header {
-      background-position-x: -700px; } }
+      height: 110vh;
+      background: linear-gradient(to right, #0f738ecc, #0f738ecc), url("./img/profile-pic-medium.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat; } }
   @media only screen and (max-width: 450px) {
     .header {
       border-top-left-radius: 0;
