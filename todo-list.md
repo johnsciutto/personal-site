@@ -2,9 +2,6 @@
 
 ## To-Do
 
-- [ ] Create a redirect to make sure that blog.johnsciutto.com goes to my blog.
-- [ ] Link my blog from my main site.
-- [ ] Link my blog from my portfolio site.
 - [ ] Add link to my blog from top flat navigation in "certifications"
 - [ ] Add link to my blog from footer navigation in all pages.
 - [ ] Create a schedule to write/publish posts.
@@ -16,7 +13,7 @@
 
 ## Doing
 
-- [ ] Create a blog using Netlify and Hugo.
+- [ ] Create a redirect to make sure that blog.johnsciutto.com goes to my blog.
 
 ## Done
 
@@ -52,3 +49,6 @@
       an copy of the image and present it as a srcset for a different size?
 - [X] Check to see if I have a Netlify blog working.  
       { expected: 3min; start: 11:44, end: 11:45, actual:1}
+- [X] Create a blog using Netlify and Hugo.
+- [X] Link my blog from my main site.
+- [X] Link my blog from my portfolio site.
