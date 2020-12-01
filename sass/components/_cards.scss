@@ -1,43 +1,43 @@
 .card {
 
+  // Functionality
+
   perspective: 150rem;
   -moz-perspective: 150rem;
   position: relative;
   height: 52rem;
-
-  // Delete this part when I'm done 
-  font-size: 2rem;
-  border: 1px solid blue;
-
-  // Delete up to here
-
+  width: 40rem;
 
   &__side {
     height: 52rem;
     transition: all .8s ease;
-    position: absolute;
 
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     backface-visibility: hidden;
-    border-radius: 3px;
+    border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, .15);
+    box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
 
     &--front {
-      background-color: white;
+      background-color: $color-white;
     }
 
     &--back {
       transform: rotateY(-180deg);
+      display: flex;
+      justify-content: center;
 
       &-1 {
-        // background-image: linear-gradient(
+        // background-image: 
+        // linear-gradient(
         //   to right bottom, 
         //   $color-secondary-light, 
         //   $color-secondary-dark
         // );
+        background-color: $color-secondary-light;
       }
 
       &-2 {
@@ -46,6 +46,7 @@
         //   $color-primary-light, 
         //   $color-primary-dark
         // );
+        background-color: $color-primary-light;
       }
 
       &-3 {
@@ -54,6 +55,7 @@
         //   $color-tertiary-light, 
         //   $color-tertiary-dark
         // );
+        background-color: $color-tertiary-light;
       }
 
     }
@@ -76,16 +78,34 @@
     background-blend-mode: screen;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 
     &--1 {
+      background-image: linear-gradient(
+        to right bottom, 
+        $color-secondary-dark, 
+        $color-secondary-dark
+      ),
+      url(../../img/blog-pic.jpg);
     }
 
     &--2 {
+      background-image: linear-gradient(
+        to right bottom, 
+        $color-primary-dark, 
+        $color-primary-dark
+      ),
+      url(../../img/massage-pic.jpg);
     }
 
     &--3 {
+      background-image: linear-gradient(
+        to right bottom, 
+        $color-tertiary-light, 
+        $color-tertiary-light
+      ),
+      url(../../img/friends-pic.jpg);
     }
 
   }
@@ -93,11 +113,12 @@
   &__heading {
     font-size: 2.8rem;
     font-weight: 300;
+    line-height: 3.5rem;
     text-transform: uppercase;
     text-align: right;
     color: $color-white;
     position: absolute;
-    top: 12rem;
+    top: 10rem;
     right: 2rem;
     width: 75%;
   }
@@ -111,16 +132,18 @@
       // background-image: linear-gradient(
       //   to right bottom,
       //   rgba($color-secondary-light, .85),
-      //   rgba($color-secondary-dark, .85),
+      //   rgba($color-secondary-light, .85),
       // )
+      background-color: $color-secondary-light;
     }
 
     &--2 {
       // background-image: linear-gradient(
       //   to right bottom,
-      //   rgba($color-primary-light, .85),
-      //   rgba($color-primary-dark, .85),
+      //   rgba($color-primary-light, 1),
+      //   rgba($color-primary-light, 1),
       // )
+      background-color: $color-primary-light;
     }
 
     &--3 {
@@ -129,59 +152,99 @@
       //   rgba($color-tertiary-light, .85),
       //   rgba($color-tertiary-dark, .85),
       // )
+      background-color: $color-tertiary-light;
     }
   }
 
   &__details {
     padding: 3rem;
 
-    ul {
-      list-style: none;
+    p {
       width: 80%;
       margin: 0 auto;
-
-      li {
-        text-align: center;
-        font-size: 1.5rem;
-        padding: 1rem;
-
-        // &:not(:last-child) {
-        //   border-bottom: 1px solid $color-gray-light-2;
-        // }
-      }
+      font-size: 2rem;
+      line-height: 2rem;
     }
   }
 
   // Front side Styling
 
   &__cta {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     text-align: center;
-    // @include centerXY;
     width: 90%;
+    
+    ul {
+      list-style: none;
+      width: 80%;
+      margin: 2rem auto 0;
+
+      li {
+        text-align: center;
+        font-size: 2rem;
+        color: $color-white;
+        padding: 1rem;
+        line-height: 2.5rem;
+
+        &:not(:last-child) {
+          border-bottom: 1px solid $color-white;
+        }
+      }
+    }
+    
   }
 
-  &__price-box {
+  &__btn-box {
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    // color: $color-white;
-    margin-bottom: 8rem;
+    margin: auto 0 2rem;
+
+    & > * {
+      display: inline-block;
+      border-radius: 10px;
+      background-color: $color-white;
+      border: none;
+      padding: 1.5rem;
+      font-size: 2.5rem;
+      cursor: pointer;
+      text-transform: lowercase;
+      text-decoration: none;
+      box-shadow: $shadow;
+      transition: all 0.2s;
+
+      &:hover {
+        transform: translateY(-1px);
+        box-shadow: $shadow-hover;
+      }
+
+      &:not(:last-child) {
+        margin-bottom: 2rem;
+      }
+    }
+
 
   }
 
-  &__price-only {
-    font-size: 1.4rem;
-    text-transform: uppercase;
+  &__btn-website {
+    background-color: $color-white;
+    color: $color-black;
+
   }
 
-  &__price-value {
-    font-size: 6rem;
-    font-weight: 100;
+  &__btn-code {
+    background-color: $color-black;
+    color: $color-white;
   }
 
+  // This is the media query for making it not rotate
   @include media(700px) {
     height: auto;
     border-radius: 3px;
-    // background-color: $color-white;
-    // box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
+    background-color: $color-white;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
 
     &__side {
       height: auto;
@@ -212,17 +275,24 @@
       padding: 7rem 4rem 4rem 4rem;
     }
 
-    &__price-box {
+    &__btn-box {
       margin-bottom: 3rem;
-
-    }
-
-    &__price-value {
       font-size: 4rem;
+
     }
+
+    // &__btn-website {
+    //   font-size: 4rem;
+    // }
+
+    // &__btn-code {
+    //   font-size: 4rem;
+    // }
   }
 
 }
+
+////////////////////////
 
 .course-card {
   margin: 2rem auto 2rem;
@@ -232,7 +302,7 @@
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   transition: all 0.2s;
   font-size: 1.6rem;
-  color: $color-gray-dark;
+  color: $color-gray;
 
   &__name {
     font-size: 2.5rem;
