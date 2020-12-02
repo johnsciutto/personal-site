@@ -42,68 +42,12 @@
   }
 }
 
-.portfolio-card {
-
-  &__container {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    width: 100%;
-    margin: 5rem;
-
-    & > * {
-      width: 60rem;
-    }
-
-    & > *:not(:last-child) {
-      margin-right: 10rem;
-    }
-  }
-
-  &__image {
-    background-color: royalblue;
-    border-radius: 20px;
-    overflow: hidden;
-    width: 60rem;
-    height: 40rem;
-  }
-
-  &__content {
-    margin-top: 2rem;
-    font-size: 2rem;
-    line-height: 2.5rem;
-
-    & > *:not(:last-child) {
-      margin-bottom: 2rem;
-    }
-
-    & > *:last-child {
-
-      margin-left: 2.5rem;
-
-      & > * {
-        margin-bottom: 0.5rem;
-      }
-    }
-  }
-
-  &__description {
-  }
-
-  &__title {
-    font-size: 3rem;
-    color: $color-primary;
-    font-weight: 500;
-    letter-spacing: 0.2rem;
-    text-transform: capitalize;
-  }
-
-  &__list {
-
-    & > * {
-
-    }
-  }
+.portfolio-container {
+  display: grid;
+  grid-template-columns: repeat(3, 40rem);
+  column-gap: 8rem;
+  row-gap: 10rem;
+  justify-content: center;
 
 }
 

@@ -31,32 +31,41 @@
       justify-content: center;
 
       &-1 {
-        // background-image: 
-        // linear-gradient(
-        //   to right bottom, 
-        //   $color-secondary-light, 
-        //   $color-secondary-dark
-        // );
         background-color: $color-secondary-light;
       }
 
       &-2 {
-        // background-image: linear-gradient(
-        //   to right bottom, 
-        //   $color-primary-light, 
-        //   $color-primary-dark
-        // );
         background-color: $color-primary-light;
       }
 
       &-3 {
-        // background-image: linear-gradient(
-        //   to right bottom, 
-        //   $color-tertiary-light, 
-        //   $color-tertiary-dark
-        // );
         background-color: $color-tertiary-light;
       }
+
+      &-4 {
+        background-color: $color-secondary;
+      }
+
+      &-5 {
+        background-color: $color-primary;
+      }
+
+      &-6 {
+        background-color: $color-tertiary;
+      }
+
+      &-7 {
+        background-color: $color-secondary-dark;
+      }
+
+      &-8 {
+        background-color: $color-primary-dark;
+      }
+
+      &-9 {
+        background-color: $color-tertiary-dark;
+      }
+
 
     }
 
@@ -83,7 +92,6 @@
 
     &--1 {
       background-image: linear-gradient(
-        to right bottom, 
         $color-secondary-dark, 
         $color-secondary-dark
       ),
@@ -92,7 +100,6 @@
 
     &--2 {
       background-image: linear-gradient(
-        to right bottom, 
         $color-primary-dark, 
         $color-primary-dark
       ),
@@ -101,11 +108,52 @@
 
     &--3 {
       background-image: linear-gradient(
-        to right bottom, 
         $color-tertiary-light, 
         $color-tertiary-light
       ),
       url(../../img/friends-pic.jpg);
+    }
+
+    &--4 {
+      background-image: linear-gradient(
+        $color-secondary-dark, 
+        $color-secondary-dark
+      );
+    }
+
+    &--5 {
+      background-image: linear-gradient(
+        $color-primary-dark, 
+        $color-primary-dark
+      );
+    }
+
+    &--6 {
+      background-image: linear-gradient(
+        $color-tertiary-light, 
+        $color-tertiary-light
+      );
+    }
+
+    &--7 {
+      background-image: linear-gradient(
+        $color-secondary-dark, 
+        $color-secondary-dark
+      );
+    }
+
+    &--8 {
+      background-image: linear-gradient(
+        $color-primary-dark, 
+        $color-primary-dark
+      );
+    }
+
+    &--9 {
+      background-image: linear-gradient(
+        $color-tertiary-light, 
+        $color-tertiary-light
+      );
     }
 
   }
@@ -129,30 +177,39 @@
     box-decoration-break: clone;
 
     &--1 {
-      // background-image: linear-gradient(
-      //   to right bottom,
-      //   rgba($color-secondary-light, .85),
-      //   rgba($color-secondary-light, .85),
-      // )
       background-color: $color-secondary-light;
     }
 
     &--2 {
-      // background-image: linear-gradient(
-      //   to right bottom,
-      //   rgba($color-primary-light, 1),
-      //   rgba($color-primary-light, 1),
-      // )
       background-color: $color-primary-light;
     }
 
     &--3 {
-      // background-image: linear-gradient(
-      //   to right bottom,
-      //   rgba($color-tertiary-light, .85),
-      //   rgba($color-tertiary-dark, .85),
-      // )
       background-color: $color-tertiary-light;
+    }
+
+    &-4 {
+      background-color: $color-secondary;
+    }
+
+    &-5 {
+      background-color: $color-primary;
+    }
+
+    &-6 {
+      background-color: $color-tertiary;
+    }
+
+    &-7 {
+      background-color: $color-secondary-dark;
+    }
+
+    &-8 {
+      background-color: $color-primary-dark;
+    }
+
+    &-9 {
+      background-color: $color-tertiary-dark;
     }
   }
 
@@ -198,15 +255,12 @@
 
   &__btn-box {
     display: flex;
-    flex-direction: column;
-    text-align: center;
     margin: auto 0 2rem;
 
     & > * {
-      display: inline-block;
-      border-radius: 10px;
-      background-color: $color-white;
-      border: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       padding: 1.5rem;
       font-size: 2.5rem;
       cursor: pointer;
@@ -220,8 +274,16 @@
         box-shadow: $shadow-hover;
       }
 
-      &:not(:last-child) {
-        margin-bottom: 2rem;
+      &:first-child {
+        width: 100%;
+        height: 100%;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+      }
+
+      &:last-child {
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
       }
     }
 
@@ -279,6 +341,12 @@
       margin-bottom: 3rem;
       font-size: 4rem;
 
+      & > * {
+        // display: inline-block;
+        // width: 30%;
+        color: blue !important;
+      }
+
     }
 
     // &__btn-website {
@@ -290,6 +358,12 @@
     // }
   }
 
+}
+
+.icon-github {
+  width: 3rem;
+  height: 3rem;
+  fill: $color-white;
 }
 
 ////////////////////////

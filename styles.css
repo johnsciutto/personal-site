@@ -424,6 +424,18 @@ body {
         background-color: #1498bc; }
       .card__side--back-3 {
         background-color: #4d5251; }
+      .card__side--back-4 {
+        background-color: #03719c; }
+      .card__side--back-5 {
+        background-color: #0f738e; }
+      .card__side--back-6 {
+        background-color: #343837; }
+      .card__side--back-7 {
+        background-color: #024d6a; }
+      .card__side--back-8 {
+        background-color: #0a4e60; }
+      .card__side--back-9 {
+        background-color: #1b1e1d; }
   .card:hover .card__side--front {
     transform: rotateY(180deg); }
   .card:hover .card__side--back {
@@ -437,11 +449,23 @@ body {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px; }
     .card__picture--1 {
-      background-image: linear-gradient(to right bottom, #024d6a, #024d6a), url(../../img/blog-pic.jpg); }
+      background-image: linear-gradient(#024d6a, #024d6a), url(../../img/blog-pic.jpg); }
     .card__picture--2 {
-      background-image: linear-gradient(to right bottom, #0a4e60, #0a4e60), url(../../img/massage-pic.jpg); }
+      background-image: linear-gradient(#0a4e60, #0a4e60), url(../../img/massage-pic.jpg); }
     .card__picture--3 {
-      background-image: linear-gradient(to right bottom, #4d5251, #4d5251), url(../../img/friends-pic.jpg); }
+      background-image: linear-gradient(#4d5251, #4d5251), url(../../img/friends-pic.jpg); }
+    .card__picture--4 {
+      background-image: linear-gradient(#024d6a, #024d6a); }
+    .card__picture--5 {
+      background-image: linear-gradient(#0a4e60, #0a4e60); }
+    .card__picture--6 {
+      background-image: linear-gradient(#4d5251, #4d5251); }
+    .card__picture--7 {
+      background-image: linear-gradient(#024d6a, #024d6a); }
+    .card__picture--8 {
+      background-image: linear-gradient(#0a4e60, #0a4e60); }
+    .card__picture--9 {
+      background-image: linear-gradient(#4d5251, #4d5251); }
   .card__heading {
     font-size: 2.8rem;
     font-weight: 300;
@@ -463,6 +487,18 @@ body {
       background-color: #1498bc; }
     .card__heading-span--3 {
       background-color: #4d5251; }
+    .card__heading-span-4 {
+      background-color: #03719c; }
+    .card__heading-span-5 {
+      background-color: #0f738e; }
+    .card__heading-span-6 {
+      background-color: #343837; }
+    .card__heading-span-7 {
+      background-color: #024d6a; }
+    .card__heading-span-8 {
+      background-color: #0a4e60; }
+    .card__heading-span-9 {
+      background-color: #1b1e1d; }
   .card__details {
     padding: 3rem; }
     .card__details p {
@@ -490,14 +526,11 @@ body {
           border-bottom: 1px solid #f5f5f5; }
   .card__btn-box {
     display: flex;
-    flex-direction: column;
-    text-align: center;
     margin: auto 0 2rem; }
     .card__btn-box > * {
-      display: inline-block;
-      border-radius: 10px;
-      background-color: #f5f5f5;
-      border: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       padding: 1.5rem;
       font-size: 2.5rem;
       cursor: pointer;
@@ -508,8 +541,14 @@ body {
       .card__btn-box > *:hover {
         transform: translateY(-1px);
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); }
-      .card__btn-box > *:not(:last-child) {
-        margin-bottom: 2rem; }
+      .card__btn-box > *:first-child {
+        width: 100%;
+        height: 100%;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px; }
+      .card__btn-box > *:last-child {
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px; }
   .card__btn-website {
     background-color: #f5f5f5;
     color: #111111; }
@@ -542,7 +581,14 @@ body {
         padding: 7rem 4rem 4rem 4rem; }
       .card__btn-box {
         margin-bottom: 3rem;
-        font-size: 4rem; } }
+        font-size: 4rem; }
+        .card__btn-box > * {
+          color: blue !important; } }
+
+.icon-github {
+  width: 3rem;
+  height: 3rem;
+  fill: #f5f5f5; }
 
 .course-card {
   margin: 2rem auto 2rem;
@@ -644,41 +690,12 @@ body {
     .container-tag {
       height: 19rem; } }
 
-.portfolio-card__container {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  width: 100%;
-  margin: 5rem; }
-  .portfolio-card__container > * {
-    width: 60rem; }
-  .portfolio-card__container > *:not(:last-child) {
-    margin-right: 10rem; }
-
-.portfolio-card__image {
-  background-color: royalblue;
-  border-radius: 20px;
-  overflow: hidden;
-  width: 60rem;
-  height: 40rem; }
-
-.portfolio-card__content {
-  margin-top: 2rem;
-  font-size: 2rem;
-  line-height: 2.5rem; }
-  .portfolio-card__content > *:not(:last-child) {
-    margin-bottom: 2rem; }
-  .portfolio-card__content > *:last-child {
-    margin-left: 2.5rem; }
-    .portfolio-card__content > *:last-child > * {
-      margin-bottom: 0.5rem; }
-
-.portfolio-card__title {
-  font-size: 3rem;
-  color: #0f738e;
-  font-weight: 500;
-  letter-spacing: 0.2rem;
-  text-transform: capitalize; }
+.portfolio-container {
+  display: grid;
+  grid-template-columns: repeat(3, 40rem);
+  column-gap: 8rem;
+  row-gap: 10rem;
+  justify-content: center; }
 
 .portfolio-btn__container {
   display: flex;
