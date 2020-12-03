@@ -4,49 +4,10 @@
 
 - [ ] Certifications Page: Add fixed round button with up pointing arrow in
       bottom right corner to navigate up.
-- [ ] Make portfolio grid responsive.
-- [ ] Make sure github links in portfolio cards have a target="_blank".
-
 2. [ ] Publish Natours online.
-3. [ ] Update resume (?).
-4. [ ] Make resume pretty by re-doing it in the online maker.
-5. [ ] Re-share the resume with Angie.
 
 ## Doing
 
-1. [ ] Publish individual site for each portfolio page except blog.
-
-- [X] Make a list of the pages I want to publish.
-  - Clinical Impression App
-  - Friendly Reminder
-  - Natours (choose a new name)
-- [X] Do a 5 minute brainstorm about the things I want to say in the page: Which
-  questions do I want to answer?
-  - Which technologies or skills did I use? What features does the page or app have?
-    - Natours:
-      - CSS: flexbox
-      - SASS
-      - Card elements?
-      - BEM
-      - Cool modal with just CSS (no JS!)
-    - EANT project (node)
-      - Node
-      - Express
-      - Deployed to Netlify and Mongo Atlas
-      - MongoDB native driver
-      - Bcrypt for encryption
-      - JWTs and Cookies for sessions.
-  - Link to GH.
-- [X] Make the html structure of the site.
-  - Sketch it out on the whiteboard.
-  - Write the HTML.
-- Answer the questions in each page.
-- Add a screen-shot in each page.
-- Add links to the actual site and the GitHub project.
-
-- [ ] Create a redirect to make sure that blog.johnsciutto.com goes to my blog.
-  - bug: run into an issue with SSL certificates. I need to have a "*"
-    certificate to cover all the sub-domains, and I don't have that.
 
 ## Done
 
@@ -94,3 +55,9 @@
       25min, actual: 41min }
 - [X] Change portfolio card buttons so that they are in the "same container",
       side by side. The github icon to the very right.
+- [X] Publish card for each portfolio.
+- [X] Update resume.
+- [X] Make resume pretty by re-doing it in the online maker.
+- [X] Re-share the resume with Angie.
+- [X] Make portfolio grid responsive.
+- [X] Make sure github links in portfolio cards have a target="_blank".
