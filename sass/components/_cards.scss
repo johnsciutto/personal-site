@@ -21,6 +21,10 @@
     overflow: hidden;
     box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
 
+    @include media(400px) {
+      border-radius: 0px;
+    }
+
     &--front {
       background-color: $color-white;
     }
@@ -29,6 +33,7 @@
       transform: rotateY(-180deg);
       display: flex;
       justify-content: center;
+
 
       &-1 {
         background-color: $color-secondary-light;
@@ -89,6 +94,10 @@
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+
+    @include media(400px) {
+      border-radius: 0px;
+    }
 
     &--1 {
       background-image: linear-gradient(
@@ -250,6 +259,10 @@
         }
       }
     }
+
+    @include media(360px) {
+      border-bottom: 2px solid $color-black;
+    }
     
   }
 
@@ -287,6 +300,9 @@
       }
     }
 
+    @include media(360px) {
+      margin: auto 2rem 2rem 2rem;
+    }
 
   }
 
@@ -302,14 +318,14 @@
   }
 
   // This is the media query for making it not rotate
-  @include media(700px) {
+  @media only screen and (hover: none) {
     height: auto;
     border-radius: 3px;
     background-color: $color-white;
     box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
 
     &__side {
-      height: auto;
+      // height: auto;
       position: relative;
       box-shadow: none;
 
@@ -317,7 +333,6 @@
         transform: rotateY(0);
         border-top-left-radius: 0px;
         border-top-right-radius: 0px;
-        // clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
       }
     }
 
@@ -336,7 +351,7 @@
       left: 0;
       transform: translate(0);
       width: 100%;
-      padding: 7rem 4rem 4rem 4rem;
+      padding: 4rem 4rem 4rem 4rem;
 
       @media only screen and (max-width: 700px) {
         padding: 2rem 2rem;
@@ -345,13 +360,16 @@
     }
 
     &__btn-box {
-      margin-bottom: 3rem;
+      // margin-bottom: 3rem;
       font-size: 4rem;
+      // margin: 0;
+      margin-top: auto;
+      margin-bottom: 0;
 
-      & > * {
+      // & > * {
         // display: inline-block;
         // width: 30%;
-      }
+      // }
 
     }
 
@@ -362,6 +380,16 @@
     // &__btn-code {
     //   font-size: 4rem;
     // }
+    
+  }
+
+  @include media(450px) {
+    width: 35rem;
+  }
+
+  @include media(360px) {
+    width: auto;
+    box-shadow: none;
   }
 
 }

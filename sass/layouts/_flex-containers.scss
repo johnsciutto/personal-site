@@ -44,10 +44,21 @@
 
 .portfolio-container {
   display: grid;
-  grid-template-columns: repeat(3, 40rem);
-  column-gap: 8rem;
-  row-gap: 10rem;
+  // grid-template-columns: repeat(3, 40rem);
+  grid-template-columns: repeat(auto-fill, minmax(40rem, 1fr));
+  column-gap: 3rem;
+  row-gap: 7rem;
   justify-content: center;
+  justify-items: center;
+
+  @media only screen and (hover: none) {
+    row-gap: 5rem;
+  }
+
+  @include media(360px) {
+    row-gap: 0rem;
+    margin-top: -3rem;
+  }
 
 }
 
