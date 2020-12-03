@@ -5,6 +5,7 @@
 - [ ] Certifications Page: Add fixed round button with up pointing arrow in
       bottom right corner to navigate up.
 - [ ] Make portfolio grid responsive.
+- [ ] Make sure github links in portfolio cards have a target="_blank".
 
 2. [ ] Publish Natours online.
 3. [ ] Update resume (?).
