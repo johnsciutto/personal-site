@@ -290,7 +290,7 @@ body {
     display: inline-block;
     text-decoration: none;
     text-transform: uppercase;
-    color: #84a9ac;
+    color: #0095dd;
     letter-spacing: 0.2rem; }
     @media only screen and (max-width: 550px) {
       .footer__email:link, .footer__email:visited {
@@ -387,7 +387,7 @@ body {
   --offset: 10px;
   --border-size: 2px;
   display: block;
-  width: 30rem;
+  width: 50rem;
   position: relative;
   padding: 1.5em 3em;
   appearance: none;
@@ -399,7 +399,7 @@ body {
   letter-spacing: .25em;
   outline: none;
   cursor: pointer;
-  font-size: 2rem;
+  font-size: 3.5rem;
   font-weight: bold;
   border-radius: 0;
   box-shadow: inset 0 0 0 var(--border-size) currentcolor;
@@ -448,6 +448,18 @@ body {
       right: calc(var(--horizontal-offset) - var(--border-size)); }
   .btn-frame:hover .btn-frame__vertical {
     transform: scaleY(0); }
+  @media only screen and (max-width: 940px) {
+    .btn-frame {
+      width: 40rem;
+      font-size: 3rem; } }
+  @media only screen and (max-width: 800px) {
+    .btn-frame {
+      width: 35rem;
+      font-size: 2.5rem; } }
+  @media only screen and (max-width: 700px) {
+    .btn-frame {
+      width: 30rem;
+      font-size: 2rem; } }
   @media only screen and (max-width: 400px) {
     .btn-frame {
       width: 25rem; } }

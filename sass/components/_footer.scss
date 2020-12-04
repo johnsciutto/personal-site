@@ -71,7 +71,8 @@
     display: inline-block;
     text-decoration: none;
     text-transform: uppercase;
-    color: #84a9ac;
+    // color: #84a9ac;
+    color: $color-secondary;
     letter-spacing: 0.2rem;
 
     @include media(550px) {
