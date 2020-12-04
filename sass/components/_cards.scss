@@ -107,6 +107,15 @@
       url(../../img/blog-pic.jpg);
     }
 
+    &--argentours {
+      background-image: linear-gradient(
+        $color-primary-dark, 
+        $color-primary-dark
+      ),
+      url(../../img/argentours-screenshot.png);
+
+    }
+
     &--2 {
       background-image: linear-gradient(
         $color-primary-dark, 
