@@ -103,12 +103,14 @@
 	--offset: 10px;
 	--border-size: 2px;
 	
-	display: block;
-	position: relative;
+  display: block;
+  width: 30rem;
+  position: relative;
 	padding: 1.5em 3em;
   appearance: none;
 	border: 0;
 	background: transparent;
+  text-align: center;
 	text-transform: uppercase;
   text-decoration: none;
 	letter-spacing: .25em;
@@ -119,6 +121,10 @@
 	border-radius: 0;
 	box-shadow: inset 0 0 0 var(--border-size) currentcolor;
   transition: background .8s ease;
+
+  &:not(:last-child) {
+    margin-bottom: 8rem;
+  }
 
   &--1 {
     color: $color-primary;
@@ -154,8 +160,8 @@
 	
 	&__horizontal {
 		--vertical-offset: calc(var(--offset) * -1);
-		border-top: var(--border-size) solid currentcolor;
-		border-bottom: var(--border-size) solid currentcolor;
+		border-top: var(--border-size) solid currentColor;
+		border-bottom: var(--border-size) solid currentColor;
 		
 		&::before {
 			top: calc(var(--vertical-offset) - var(--border-size));
@@ -184,6 +190,15 @@
 	
 	&:hover &__vertical {
 		transform: scaleY(0);
-	}
+  }
+  
+  @include media(400px) {
+    width: 25rem;
+  }
+
+  @include media(330px) {
+    width: 20rem;
+    font-size: 1.5rem;
+  }
 
 }
