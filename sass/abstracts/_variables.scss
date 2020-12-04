@@ -10,18 +10,21 @@ $color-gray-t-80: #343837cc;
 $color-gray-light: lighten(#343837, 10%);
 $color-gray-dark: darken(#343837, 10%);
 
-$color-primary: #0f738e;
-$color-primary-t-80: #0f738ecc;
+// $color-primary: #0f738e;
+$color-primary: #00539f;
+$color-primary-t-80: #00539fcc;
 $color-primary-light: lighten($color-primary, 10%);
 $color-primary-dark: darken($color-primary, 10%);
 
-$color-secondary: #03719c;
-$color-secondary-t-80: #03709bcc;
+// $color-secondary: #03719c;
+$color-secondary: #0095dd;
+$color-secondary-t-80: #0095ddcc;
 $color-secondary-light: lighten($color-secondary, 10%);
 $color-secondary-dark: darken($color-secondary, 10%);
 
-$color-tertiary: #343837;
-$color-tertiary-t-80: #343837cc;
+// $color-tertiary: #343837;
+$color-tertiary: #002147;
+$color-tertiary-t-80: #002147cc;
 $color-tertiary-light: lighten($color-tertiary, 10%);
 $color-tertiary-dark: darken($color-tertiary, 10%);
 

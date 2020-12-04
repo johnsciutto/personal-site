@@ -19,31 +19,31 @@
   color: #f5f5f5 !important; }
 
 .u-color-primary {
-  color: #0f738e !important; }
+  color: #00539f !important; }
 
 .u-color-primary-light {
-  color: #1498bc !important; }
+  color: #006ed2 !important; }
 
 .u-color-primary-dark {
-  color: #0a4e60 !important; }
+  color: #00386c !important; }
 
 .u-color-secondary {
-  color: #03719c !important; }
+  color: #0095dd !important; }
 
 .u-color-secondary-light {
-  color: #0495ce !important; }
+  color: #11b1ff !important; }
 
 .u-color-secondary-dark {
-  color: #024d6a !important; }
+  color: #0073aa !important; }
 
 .u-color-tertiary {
-  color: #343837 !important; }
+  color: #002147 !important; }
 
 .u-color-tertiary-light {
-  color: #4d5251 !important; }
+  color: #00397a !important; }
 
 .u-color-tertiary-dark {
-  color: #1b1e1d !important; }
+  color: #000914 !important; }
 
 .u-bg-color-black {
   background-color: #111111 !important; }
@@ -52,31 +52,31 @@
   background-color: #f5f5f5 !important; }
 
 .u-bg-color-primary {
-  background-color: #0f738e !important; }
+  background-color: #00539f !important; }
 
 .u-bg-color-primary-light {
-  background-color: #1498bc !important; }
+  background-color: #006ed2 !important; }
 
 .u-bg-color-primary-dark {
-  background-color: #0a4e60 !important; }
+  background-color: #00386c !important; }
 
 .u-bg-color-secondary {
-  background-color: #03719c !important; }
+  background-color: #0095dd !important; }
 
 .u-bg-color-secondary-light {
-  background-color: #0495ce !important; }
+  background-color: #11b1ff !important; }
 
 .u-bg-color-secondary-dark {
-  background-color: #024d6a !important; }
+  background-color: #0073aa !important; }
 
 .u-bg-color-tertiary {
-  background-color: #343837 !important; }
+  background-color: #002147 !important; }
 
 .u-bg-color-tertiary-light {
-  background-color: #4d5251 !important; }
+  background-color: #00397a !important; }
 
 .u-bg-color-tertiary-dark {
-  background-color: #1b1e1d !important; }
+  background-color: #000914 !important; }
 
 .u-margin-bottom-xs {
   margin-bottom: 0.5rem !important; }
@@ -121,7 +121,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background: linear-gradient(to right, #0f738ecc, #0f738ecc), url("./img/profile-pic-large.jpg");
+  background: linear-gradient(to right, #00539fcc, #00539fcc), url("./img/profile-pic-large.jpg");
   background-size: cover;
   background-position: center;
   height: 75vh;
@@ -135,7 +135,7 @@ body {
   @media only screen and (max-width: 750px) {
     .header {
       height: 110vh;
-      background: linear-gradient(to right, #0f738ecc, #0f738ecc), url("./img/profile-pic-medium.jpg");
+      background: linear-gradient(to right, #00539fcc, #00539fcc), url("./img/profile-pic-medium.jpg");
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat; } }
@@ -143,7 +143,7 @@ body {
     .header {
       border-top-left-radius: 0;
       border-top-right-radius: 0;
-      background: #0f738e;
+      background: #00539f;
       height: 9rem;
       justify-content: center; } }
   .header__title {
@@ -201,7 +201,7 @@ body {
     border-top-right-radius: 5px;
     height: 15rem;
     color: #f5f5f5;
-    background-color: #0f738e;
+    background-color: #00539f;
     font-size: 5rem; }
     @media only screen and (max-width: 800px) {
       .header-small__title {
@@ -224,7 +224,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #0a4e60; }
+    background-color: #00386c; }
     .header-small__navigation a:link, .header-small__navigation a:active, .header-small__navigation a:visited {
       padding: 15px 2rem;
       text-decoration: none;
@@ -233,7 +233,7 @@ body {
       color: #f5f5f5;
       transition: all 0.2s; }
     .header-small__navigation a:hover {
-      background-color: #0f738e; }
+      background-color: #00539f; }
 
 .footer {
   font-size: 1.8rem;
@@ -353,24 +353,12 @@ body {
       .btn-round__text {
         font-size: 2rem;
         line-height: 2.5rem; } }
-    .btn-round__text--1 {
-      color: #343837; }
-    .btn-round__text--2 {
-      color: #0f9b8e; }
-    .btn-round__text--3 {
-      color: #03719c; }
   .btn-round--1 {
-    background-color: #343837e1; }
+    background-color: #0095dd; }
   .btn-round--2 {
-    background-color: #03719c; }
+    background-color: #00539f; }
   .btn-round--3 {
-    background-color: #0f9b8e; }
-  .btn-round--portfolio-blog {
-    background-image: linear-gradient(to right, #f5f5f5cc, #f5f5f5cc), url(../../img/blog-pic.jpg); }
-  .btn-round--portfolio-massage {
-    background-image: linear-gradient(to right, #f5f5f5cc, #f5f5f5cc), url(../../img/massage-pic.jpg); }
-  .btn-round--portfolio-friend {
-    background-image: linear-gradient(to right, #f5f5f5cc, #f5f5f5cc), url(../../img/friends-pic.jpg); }
+    background-color: #002147; }
 
 .tag-pill {
   display: flex;
@@ -383,7 +371,7 @@ body {
   padding: 1rem;
   text-decoration: none;
   font-size: 1.5rem;
-  color: #0f738ecc;
+  color: #00539fcc;
   transition: all 0.2s; }
   @media only screen and (max-width: 341px) {
     .tag-pill {
@@ -422,23 +410,23 @@ body {
       display: flex;
       justify-content: center; }
       .card__side--back-1 {
-        background-color: #0495ce; }
+        background-color: #11b1ff; }
       .card__side--back-2 {
-        background-color: #1498bc; }
+        background-color: #006ed2; }
       .card__side--back-3 {
-        background-color: #4d5251; }
+        background-color: #00397a; }
       .card__side--back-4 {
-        background-color: #03719c; }
+        background-color: #0095dd; }
       .card__side--back-5 {
-        background-color: #0f738e; }
+        background-color: #00539f; }
       .card__side--back-6 {
-        background-color: #343837; }
+        background-color: #002147; }
       .card__side--back-7 {
-        background-color: #024d6a; }
+        background-color: #0073aa; }
       .card__side--back-8 {
-        background-color: #0a4e60; }
+        background-color: #00386c; }
       .card__side--back-9 {
-        background-color: #1b1e1d; }
+        background-color: #000914; }
   .card:hover .card__side--front {
     transform: rotateY(180deg); }
   .card:hover .card__side--back {
@@ -455,25 +443,27 @@ body {
       .card__picture {
         border-radius: 0px; } }
     .card__picture--1 {
-      background-image: linear-gradient(#024d6a, #024d6a), url(../../img/blog-pic.jpg); }
+      background-image: linear-gradient(#0073aa, #0073aa), url(../../img/blog-pic.jpg); }
     .card__picture--argentours {
-      background-image: linear-gradient(#0a4e60, #0a4e60), url(../../img/argentours-screenshot.png); }
+      background-image: linear-gradient(#00386c, #00386c), url(../../img/argentours-screenshot.png); }
+    .card__picture--grandpalace {
+      background-image: linear-gradient(#00386c, #00386c), url(../../img/grandpalace-screenshot.png); }
     .card__picture--2 {
-      background-image: linear-gradient(#0a4e60, #0a4e60), url(../../img/massage-pic.jpg); }
+      background-image: linear-gradient(#00386c, #00386c), url(../../img/massage-pic.jpg); }
     .card__picture--3 {
-      background-image: linear-gradient(#4d5251, #4d5251), url(../../img/friends-pic.jpg); }
+      background-image: linear-gradient(#00397a, #00397a), url(../../img/friends-pic.jpg); }
     .card__picture--4 {
-      background-image: linear-gradient(#024d6a, #024d6a); }
+      background-image: linear-gradient(#0073aa, #0073aa); }
     .card__picture--5 {
-      background-image: linear-gradient(#0a4e60, #0a4e60); }
+      background-image: linear-gradient(#00386c, #00386c); }
     .card__picture--6 {
-      background-image: linear-gradient(#4d5251, #4d5251); }
+      background-image: linear-gradient(#00397a, #00397a); }
     .card__picture--7 {
-      background-image: linear-gradient(#024d6a, #024d6a); }
+      background-image: linear-gradient(#0073aa, #0073aa); }
     .card__picture--8 {
-      background-image: linear-gradient(#0a4e60, #0a4e60); }
+      background-image: linear-gradient(#00386c, #00386c); }
     .card__picture--9 {
-      background-image: linear-gradient(#4d5251, #4d5251); }
+      background-image: linear-gradient(#00397a, #00397a); }
   .card__heading {
     font-size: 2.8rem;
     font-weight: 300;
@@ -490,23 +480,23 @@ body {
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone; }
     .card__heading-span--1 {
-      background-color: #0495ce; }
+      background-color: #11b1ff; }
     .card__heading-span--2 {
-      background-color: #1498bc; }
+      background-color: #006ed2; }
     .card__heading-span--3 {
-      background-color: #4d5251; }
+      background-color: #00397a; }
     .card__heading-span-4 {
-      background-color: #03719c; }
+      background-color: #0095dd; }
     .card__heading-span-5 {
-      background-color: #0f738e; }
+      background-color: #00539f; }
     .card__heading-span-6 {
-      background-color: #343837; }
+      background-color: #002147; }
     .card__heading-span-7 {
-      background-color: #024d6a; }
+      background-color: #0073aa; }
     .card__heading-span-8 {
-      background-color: #0a4e60; }
+      background-color: #00386c; }
     .card__heading-span-9 {
-      background-color: #1b1e1d; }
+      background-color: #000914; }
   .card__details {
     padding: 3rem; }
     .card__details p {
@@ -742,7 +732,7 @@ body {
     border-radius: 10px;
     outline: none;
     border: none;
-    background-color: #03719c;
+    background-color: #0095dd;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     transition: all 0.2s;
     cursor: pointer; }

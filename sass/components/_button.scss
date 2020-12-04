@@ -50,65 +50,25 @@
         font-size: 2rem; 
         line-height: 2.5rem;
       }
-
-      &--1 { 
-        color: #343837;
-      }
-
-      &--2 { 
-        color: #0f9b8e;
-      }
-      
-      &--3 { 
-        color: #03719c;
-      }
-
     }
 
     &--1 { 
-      background-color: #343837e1; 
+      background-color: $color-secondary;
     }
 
     &--2 { 
-      background-color: #03719c; 
+      background-color: $color-primary;
     }
     
     &--3 { 
-      background-color: #0f9b8e; 
+      background-color: $color-tertiary;
     }
 
-    &--portfolio-blog {
-      background-image: linear-gradient(
-        to right, 
-        $color-white-t-80,
-        $color-white-t-80),
-      url(../../img/blog-pic.jpg);
-    }
-
-    &--portfolio-massage {
-      background-image: linear-gradient(
-        to right, 
-        $color-white-t-80,
-        $color-white-t-80),
-      url(../../img/massage-pic.jpg);
-    }
-
-    &--portfolio-friend {
-      background-image: linear-gradient(
-        to right, 
-        $color-white-t-80,
-        $color-white-t-80),
-      url(../../img/friends-pic.jpg);
-    }
-    
-    // TODO: at 1100px width, change the width-height to be responsive... Or
-    // TODO: maybe I can make it so that it's a minmax scenario where the max
-    // TODO: is 30rem and the min is a percentage or something.
 }
 
-.btn__to-top {
-  // TODO: Create a fixed button that navigate to the top
-}
+// .btn__to-top {
+// TODO: Create a fixed button that navigate to the top
+// }
 
 .tag-pill {
   display: flex;
