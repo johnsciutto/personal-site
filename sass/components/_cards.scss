@@ -107,6 +107,14 @@
       url(../../img/blog-pic.jpg);
     }
 
+    &--movies {
+      background-image: linear-gradient(
+        $color-primary-dark, 
+        $color-primary-dark
+      ),
+      url(../../img/movies-screenshot.png);
+    }
+
     &--argentours {
       background-image: linear-gradient(
         $color-primary-dark, 
@@ -214,27 +222,27 @@
       background-color: $color-tertiary-light;
     }
 
-    &-4 {
+    &--4 {
       background-color: $color-secondary;
     }
 
-    &-5 {
+    &--5 {
       background-color: $color-primary;
     }
 
-    &-6 {
+    &--6 {
       background-color: $color-tertiary;
     }
 
-    &-7 {
+    &--7 {
       background-color: $color-secondary-dark;
     }
 
-    &-8 {
+    &--8 {
       background-color: $color-primary-dark;
     }
 
-    &-9 {
+    &--9 {
       background-color: $color-tertiary-dark;
     }
   }
