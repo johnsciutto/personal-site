@@ -1,0 +1,31 @@
+.about-me {
+  font-size: 2.6rem;
+  color: #333;
+  padding: 0 50px;
+  max-width: 60vw;
+  line-height: 1.2;
+  margin: 0 auto 10rem;
+
+  @media (max-width: 940px) {
+    max-width: 80vw;
+  }
+
+  @media (max-width: 700px) {
+    margin: 0 auto 10rem;
+  }
+
+  @media (max-width: 400px) {
+    padding: 0 10px;
+  }
+  
+  p:not(:last-child) {
+    margin-bottom: 1.5rem;
+  }
+}
+
+.portfolio-title {
+  font-size: 3.5rem;
+  color: royalblue;
+  text-align: center;
+  margin-bottom: 8rem;
+}
